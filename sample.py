@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import IsolationForest
 import numpy as np
 from threading import Thread
-import requestsī
+import requests
 import socket
 
 # Tracking packet count and timestamps
