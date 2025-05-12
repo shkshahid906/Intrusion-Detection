@@ -19,3 +19,15 @@ To run this project, you need the following:
   - `sklearn`
   - `numpy`
   - `requests`
+
+ ## Structure:
+
+ INTRUSION/
+ |-attack.py
+ |-config.json
+ |-ip_info.json
+ |-main.py
+ |-intrusion.txt
+ |-README.md
+ |-SYNOPSIS.pdf
+
