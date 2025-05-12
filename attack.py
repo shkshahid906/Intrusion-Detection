@@ -1,7 +1,7 @@
 from scapy.all import send, IP, TCP
 import time
 
-TARGET_IP = "192.168.15.23"  # Replace with your test machine's IP
+TARGET_IP = "192.168.15.23"
 PORT = 80  # Common web traffic port
 PACKET_COUNT = 60  # Number of packets to send (above IDS threshold)
 DELAY = 0.1  # Time delay between packets
