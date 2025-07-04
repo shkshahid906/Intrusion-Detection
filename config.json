@@ -1,7 +1,7 @@
 {
-    "request_limit": 50,
-    "time_window": 10,
-    "alert_cooldown": 60,
-    "log_file": "intrusion_log.txt",
-    "whitelist": ["8.8.8.8", "8.8.4.4", "192.168.1.1", "127.0.0.1"]
+  "request_limit": 100,
+  "time_window": 10,
+  "alert_cooldown": 30,
+  "log_file": "intrusion.log",
+  "whitelist": []
 }

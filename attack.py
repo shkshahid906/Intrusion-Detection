@@ -1,16 +1,14 @@
-from scapy.all import send, IP, TCP
+# attack_simulator.py
+from scapy.all import IP, TCP, send
 import time
 
-TARGET_IP = "192.168.15.23"
-PORT = 80  # Common web traffic port
-PACKET_COUNT = 60  # Number of packets to send (above IDS threshold)
-DELAY = 0.1  # Time delay between packets
+def syn_flood(target_ip="127.0.0.1", target_ports=range(20, 30), delay=0.1):
+    print(f"[⚠️] Simulating SYN scan from {target_ip} to ports {list(target_ports)}")
+    for port in target_ports:
+        pkt = IP(dst=target_ip) / TCP(dport=port, flags="S")
+        send(pkt, verbose=False)
+        time.sleep(delay)
+    print("[✅] SYN scan complete.")
 
-print(f"🚀 Sending {PACKET_COUNT} packets to {TARGET_IP} for IDS testing...")
-
-for _ in range(PACKET_COUNT):
-    pkt = IP(dst=TARGET_IP) / TCP(dport=PORT, flags="S")  # Simulates connection attempts
-    send(pkt, verbose=False)
-    time.sleep(DELAY)
-
-print("✅ Test completed! Check your IDS logs for detection results.")
+if __name__ == "__main__":
+    syn_flood("127.0.0.1", range(20, 1024), delay=0.01)
