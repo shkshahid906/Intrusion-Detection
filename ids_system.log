@@ -1,0 +1,1562 @@
+2025-08-19 22:26:57,873 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:57] "GET / HTTP/1.1" 200 -
+2025-08-19 22:26:58,064 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:58] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:26:59,255 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:26:59,520 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:26:59,568 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:26:59,575 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:26:59,770 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /socket.io/?EIO=4&transport=polling&t=PZ3GpXa HTTP/1.1" 200 -
+2025-08-19 22:27:00,013 - __main__ - INFO - Client connected: iicercEzNmPhBcq-AAAB
+2025-08-19 22:27:00,014 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:27:00] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Gpf_&sid=0BkeGhRtLGPPBbqMAAAA HTTP/1.1" 200 -
+2025-08-19 22:27:00,085 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:27:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Gpg1&sid=0BkeGhRtLGPPBbqMAAAA HTTP/1.1" 200 -
+2025-08-19 22:27:00,097 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:27:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Gpkz&sid=0BkeGhRtLGPPBbqMAAAA HTTP/1.1" 200 -
+2025-08-19 22:27:25,185 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:27:27,350 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:28:25,186 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:28:27,351 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:29:25,187 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:29:27,353 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:30:25,189 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:30:27,356 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:25,192 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:25,204 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:31:25,208 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:31:25,208 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:27,358 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:27,374 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:31:27,378 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:31:27,379 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:52:23,402 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:52:23,402 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 22:52:23,403 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:52:23,405 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:52:23,405 - database_manager - INFO - Database maintenance started
+2025-08-19 22:52:23,413 - reporting_system - INFO - Report scheduler started
+2025-08-19 22:52:23,414 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 22:52:23,414 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 22:52:23,448 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:52:23,448 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:52:24,845 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.100:5000
+2025-08-19 22:52:24,845 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 22:52:24,845 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 22:52:26,856 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:52:26,857 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 22:52:26,858 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:52:26,859 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:52:26,860 - database_manager - INFO - Database maintenance started
+2025-08-19 22:52:26,866 - reporting_system - INFO - Report scheduler started
+2025-08-19 22:52:26,867 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 22:52:26,867 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 22:52:26,913 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:52:26,914 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:52:26,920 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 22:52:26,930 - werkzeug - INFO -  * Debugger PIN: 641-868-024
+2025-08-19 22:52:27,095 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET / HTTP/1.1" 200 -
+2025-08-19 22:52:27,207 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-08-19 22:52:27,412 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:52:27,466 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:52:27,496 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:52:27,522 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:52:27,735 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Med4 HTTP/1.1" 200 -
+2025-08-19 22:52:27,996 - __main__ - INFO - Client connected: 4ScT3TyJoNm-PYVcAAAB
+2025-08-19 22:52:27,998 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:27] "POST /socket.io/?EIO=4&transport=polling&t=PZ3MeiU&sid=uXvYq7N0yDpEfCu-AAAA HTTP/1.1" 200 -
+2025-08-19 22:52:28,060 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:28] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MeiW&sid=uXvYq7N0yDpEfCu-AAAA HTTP/1.1" 200 -
+2025-08-19 22:52:28,071 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:28] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MenZ&sid=uXvYq7N0yDpEfCu-AAAA HTTP/1.1" 200 -
+2025-08-19 22:52:30,249 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:30] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:52:30,251 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:30] "[33mGET /api/logs HTTP/1.1[0m" 404 -
+2025-08-19 22:52:40,363 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:52:40,364 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:40] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:52:53,654 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:52:53,667 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:53] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:52:56,162 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:52:56,166 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:56] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:52:59,886 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:52:59,891 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:52:59] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:53:01,363 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:01,385 - __main__ - INFO - Client disconnected: 4ScT3TyJoNm-PYVcAAAB
+2025-08-19 22:53:01,386 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET /socket.io/?EIO=4&transport=websocket&sid=uXvYq7N0yDpEfCu-AAAA HTTP/1.1" 200 -
+2025-08-19 22:53:01,414 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:01,483 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:01,534 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:01,550 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:01,572 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:01,800 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:01] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mmxb HTTP/1.1" 200 -
+2025-08-19 22:53:02,066 - __main__ - INFO - Client connected: w23wrIYY1ke1iprVAAAD
+2025-08-19 22:53:02,068 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:02] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Mn0k&sid=MDVOuRzEsyFTpP1wAAAC HTTP/1.1" 200 -
+2025-08-19 22:53:02,114 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:02] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mn0l&sid=MDVOuRzEsyFTpP1wAAAC HTTP/1.1" 200 -
+2025-08-19 22:53:02,124 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:02] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mn5d&sid=MDVOuRzEsyFTpP1wAAAC HTTP/1.1" 200 -
+2025-08-19 22:53:03,186 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:03] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:53:03,191 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:03] "[33mGET /api/logs HTTP/1.1[0m" 404 -
+2025-08-19 22:53:09,230 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:53:09,234 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:09] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:53:12,882 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:53:12,883 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:12] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:53:23,404 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:53:26,858 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:53:33,283 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:33,308 - __main__ - INFO - Client disconnected: w23wrIYY1ke1iprVAAAD
+2025-08-19 22:53:33,310 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET /socket.io/?EIO=4&transport=websocket&sid=MDVOuRzEsyFTpP1wAAAC HTTP/1.1" 200 -
+2025-08-19 22:53:33,342 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:33,433 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:33,489 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:33,505 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:33,540 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:33,745 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:33] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mukm HTTP/1.1" 200 -
+2025-08-19 22:53:34,011 - __main__ - INFO - Client connected: yVn3iyqtlNzjgvOOAAAF
+2025-08-19 22:53:34,012 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Mupq&sid=-glQtiwv9_SkuHldAAAE HTTP/1.1" 200 -
+2025-08-19 22:53:34,060 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mupr&sid=-glQtiwv9_SkuHldAAAE HTTP/1.1" 200 -
+2025-08-19 22:53:34,070 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Muuo&sid=-glQtiwv9_SkuHldAAAE HTTP/1.1" 200 -
+2025-08-19 22:53:34,545 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:34,565 - __main__ - INFO - Client disconnected: yVn3iyqtlNzjgvOOAAAF
+2025-08-19 22:53:34,566 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /socket.io/?EIO=4&transport=websocket&sid=-glQtiwv9_SkuHldAAAE HTTP/1.1" 200 -
+2025-08-19 22:53:34,595 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:34,643 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:34,685 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:34,698 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:34,707 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:34,962 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mv1j HTTP/1.1" 200 -
+2025-08-19 22:53:35,229 - __main__ - INFO - Client connected: MEfKBDw6R6JVjDKQAAAH
+2025-08-19 22:53:35,230 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:35] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Mv6s&sid=rgz82S9LmHRY80DEAAAG HTTP/1.1" 200 -
+2025-08-19 22:53:35,276 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:35] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mv6t&sid=rgz82S9LmHRY80DEAAAG HTTP/1.1" 200 -
+2025-08-19 22:53:35,284 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:35] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MvBn&sid=rgz82S9LmHRY80DEAAAG HTTP/1.1" 200 -
+2025-08-19 22:53:37,285 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 22:53:37,287 - network_capture - INFO - Network capture engine initialized
+2025-08-19 22:53:37,288 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 22:53:37,289 - __main__ - INFO - Network monitoring started
+2025-08-19 22:53:37,289 - network_capture - INFO - Starting network simulation mode
+2025-08-19 22:53:37,291 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:37] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 22:53:39,356 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:39,371 - __main__ - INFO - Client disconnected: MEfKBDw6R6JVjDKQAAAH
+2025-08-19 22:53:39,376 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET /socket.io/?EIO=4&transport=websocket&sid=rgz82S9LmHRY80DEAAAG HTTP/1.1" 200 -
+2025-08-19 22:53:39,400 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:39,472 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:39,516 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:39,532 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:39,539 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:39,780 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:39] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MwD3 HTTP/1.1" 200 -
+2025-08-19 22:53:40,046 - __main__ - INFO - Client connected: gNsakYmlWu7IRnR7AAAJ
+2025-08-19 22:53:40,047 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:40] "POST /socket.io/?EIO=4&transport=polling&t=PZ3MwI6&sid=Zgm1qwsxi396gbhZAAAI HTTP/1.1" 200 -
+2025-08-19 22:53:40,101 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:40] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MwI7&sid=Zgm1qwsxi396gbhZAAAI HTTP/1.1" 200 -
+2025-08-19 22:53:40,116 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:40] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MwNB&sid=Zgm1qwsxi396gbhZAAAI HTTP/1.1" 200 -
+2025-08-19 22:53:41,230 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:41,246 - __main__ - INFO - Client disconnected: gNsakYmlWu7IRnR7AAAJ
+2025-08-19 22:53:41,247 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /socket.io/?EIO=4&transport=websocket&sid=Zgm1qwsxi396gbhZAAAI HTTP/1.1" 200 -
+2025-08-19 22:53:41,273 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:41,329 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:41,349 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:41,373 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:41,391 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:41,646 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MwgB HTTP/1.1" 200 -
+2025-08-19 22:53:41,914 - __main__ - INFO - Client connected: C3hUiyFk98I9zOobAAAL
+2025-08-19 22:53:41,915 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "POST /socket.io/?EIO=4&transport=polling&t=PZ3MwlJ&sid=RkrUb3qTLdKTEZOOAAAK HTTP/1.1" 200 -
+2025-08-19 22:53:41,960 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MwlM&sid=RkrUb3qTLdKTEZOOAAAK HTTP/1.1" 200 -
+2025-08-19 22:53:41,970 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:41] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MwqE&sid=RkrUb3qTLdKTEZOOAAAK HTTP/1.1" 200 -
+2025-08-19 22:53:42,832 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:42,848 - __main__ - INFO - Client disconnected: C3hUiyFk98I9zOobAAAL
+2025-08-19 22:53:42,849 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "GET /socket.io/?EIO=4&transport=websocket&sid=RkrUb3qTLdKTEZOOAAAK HTTP/1.1" 200 -
+2025-08-19 22:53:42,872 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:42,922 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:42,945 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:42,971 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:42,994 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:42] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:43,227 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:43] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mx32 HTTP/1.1" 200 -
+2025-08-19 22:53:43,495 - __main__ - INFO - Client connected: 9Mn34dS9VKxLYurXAAAN
+2025-08-19 22:53:43,497 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:43] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Mx80&sid=TKWW7skOQTvRGNdnAAAM HTTP/1.1" 200 -
+2025-08-19 22:53:43,540 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:43] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mx81&sid=TKWW7skOQTvRGNdnAAAM HTTP/1.1" 200 -
+2025-08-19 22:53:43,548 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:43] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MxCv&sid=TKWW7skOQTvRGNdnAAAM HTTP/1.1" 200 -
+2025-08-19 22:53:44,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET / HTTP/1.1" 200 -
+2025-08-19 22:53:44,433 - __main__ - INFO - Client disconnected: 9Mn34dS9VKxLYurXAAAN
+2025-08-19 22:53:44,434 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET /socket.io/?EIO=4&transport=websocket&sid=TKWW7skOQTvRGNdnAAAM HTTP/1.1" 200 -
+2025-08-19 22:53:44,459 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:53:44,518 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:53:44,575 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:53:44,591 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:53:44,615 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:53:44,834 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:44] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MxS0 HTTP/1.1" 200 -
+2025-08-19 22:53:45,103 - __main__ - INFO - Client connected: _kH6QFdt8DW6OzSBAAAP
+2025-08-19 22:53:45,104 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:45] "POST /socket.io/?EIO=4&transport=polling&t=PZ3MxX9&sid=tsRATDmPHFhG9PTUAAAO HTTP/1.1" 200 -
+2025-08-19 22:53:45,150 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:45] "GET /socket.io/?EIO=4&transport=polling&t=PZ3MxXB&sid=tsRATDmPHFhG9PTUAAAO HTTP/1.1" 200 -
+2025-08-19 22:53:45,161 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:45] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Mxc6&sid=tsRATDmPHFhG9PTUAAAO HTTP/1.1" 200 -
+2025-08-19 22:53:47,146 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:47] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:53:47,149 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:47] "[33mGET /api/logs HTTP/1.1[0m" 404 -
+2025-08-19 22:53:51,429 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:53:51,433 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:51] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:53:56,369 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:53:56,370 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:53:56] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:53:59,273 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.101 - HIGH
+2025-08-19 22:53:59,688 - network_capture - WARNING - Threat detected: DDoS from 203.0.113.1 - HIGH
+2025-08-19 22:54:00,346 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:54:00,348 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:54:00] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:54:04,549 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:54:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-19 22:54:08,420 - network_capture - WARNING - Threat detected: DDoS from 192.168.1.100 - CRITICAL
+2025-08-19 22:54:23,406 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:54:24,389 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 172.16.0.10 - HIGH
+2025-08-19 22:54:26,860 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:54:30,919 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.100 - HIGH
+2025-08-19 22:55:29,883 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:55:29,884 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 22:55:29,885 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:55:29,886 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:55:29,886 - database_manager - INFO - Database maintenance started
+2025-08-19 22:55:29,894 - reporting_system - INFO - Report scheduler started
+2025-08-19 22:55:29,895 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 22:55:29,895 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 22:55:29,936 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:55:29,937 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:55:31,362 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.100:5000
+2025-08-19 22:55:31,363 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 22:55:31,363 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 22:55:33,663 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:55:33,664 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 22:55:33,666 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:55:33,668 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:55:33,668 - database_manager - INFO - Database maintenance started
+2025-08-19 22:55:33,681 - reporting_system - INFO - Report scheduler started
+2025-08-19 22:55:33,682 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 22:55:33,683 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 22:55:33,720 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:55:33,721 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:55:33,725 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 22:55:33,730 - werkzeug - INFO -  * Debugger PIN: 641-868-024
+2025-08-19 22:55:33,853 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:33] "GET / HTTP/1.1" 200 -
+2025-08-19 22:55:33,949 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:33] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-08-19 22:55:36,227 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:55:36,271 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 22:55:36,286 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:55:36,304 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:55:36,329 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:55:36,539 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NMjI HTTP/1.1" 200 -
+2025-08-19 22:55:36,803 - __main__ - INFO - Client connected: lVEJEYHaYaBJuee8AAAB
+2025-08-19 22:55:36,806 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "POST /socket.io/?EIO=4&transport=polling&t=PZ3NMoX&sid=KF45Bv24St9xiEQwAAAA HTTP/1.1" 200 -
+2025-08-19 22:55:36,866 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NMoZ&sid=KF45Bv24St9xiEQwAAAA HTTP/1.1" 200 -
+2025-08-19 22:55:36,876 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:36] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NMtf&sid=KF45Bv24St9xiEQwAAAA HTTP/1.1" 200 -
+2025-08-19 22:55:37,663 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-19 22:55:41,023 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 22:55:41,024 - network_capture - INFO - Network capture engine initialized
+2025-08-19 22:55:41,026 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 22:55:41,027 - __main__ - INFO - Network monitoring started
+2025-08-19 22:55:41,027 - network_capture - INFO - Starting network simulation mode
+2025-08-19 22:55:41,029 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:41] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 22:55:48,617 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:48] "GET / HTTP/1.1" 200 -
+2025-08-19 22:55:48,640 - __main__ - INFO - Client disconnected: lVEJEYHaYaBJuee8AAAB
+2025-08-19 22:55:48,641 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:48] "GET /socket.io/?EIO=4&transport=websocket&sid=KF45Bv24St9xiEQwAAAA HTTP/1.1" 200 -
+2025-08-19 22:55:48,663 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:48] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:55:49,034 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:55:49,080 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:55:49,100 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:55:49,126 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:55:49,343 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NPrW HTTP/1.1" 200 -
+2025-08-19 22:55:49,608 - __main__ - INFO - Client connected: C5vyyKAWelsQx4EEAAAD
+2025-08-19 22:55:49,609 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "POST /socket.io/?EIO=4&transport=polling&t=PZ3NPwa&sid=zG3Mo2omFZBFf71HAAAC HTTP/1.1" 200 -
+2025-08-19 22:55:49,671 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NPwc&sid=zG3Mo2omFZBFf71HAAAC HTTP/1.1" 200 -
+2025-08-19 22:55:49,679 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:49] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NP_j&sid=zG3Mo2omFZBFf71HAAAC HTTP/1.1" 200 -
+2025-08-19 22:55:54,712 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:54] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:55:54,716 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:55:54] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 22:56:02,944 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:02] "GET /api/logs/download?file=network.log HTTP/1.1" 200 -
+2025-08-19 22:56:18,907 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:56:18,915 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:18] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:56:27,936 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.101 - HIGH
+2025-08-19 22:56:29,000 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET / HTTP/1.1" 200 -
+2025-08-19 22:56:29,016 - __main__ - INFO - Client disconnected: C5vyyKAWelsQx4EEAAAD
+2025-08-19 22:56:29,019 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /socket.io/?EIO=4&transport=websocket&sid=zG3Mo2omFZBFf71HAAAC HTTP/1.1" 200 -
+2025-08-19 22:56:29,042 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:56:29,125 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:56:29,177 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:56:29,193 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:56:29,208 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:56:29,434 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NZd_ HTTP/1.1" 200 -
+2025-08-19 22:56:29,695 - __main__ - INFO - Client connected: Nu98UPxcrjKjvkd3AAAF
+2025-08-19 22:56:29,696 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "POST /socket.io/?EIO=4&transport=polling&t=PZ3NZi_&sid=gK6b6NXs8-ASQ-A6AAAE HTTP/1.1" 200 -
+2025-08-19 22:56:29,757 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NZj0&sid=gK6b6NXs8-ASQ-A6AAAE HTTP/1.1" 200 -
+2025-08-19 22:56:29,764 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NZo1&sid=gK6b6NXs8-ASQ-A6AAAE HTTP/1.1" 200 -
+2025-08-19 22:56:29,885 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:56:30,152 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:30] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:56:30,156 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:30] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 22:56:31,975 - network_capture - WARNING - Threat detected: MALWARE from 198.51.100.1 - CRITICAL
+2025-08-19 22:56:33,665 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:56:39,778 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.102 - HIGH
+2025-08-19 22:56:40,135 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:56:40,140 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:40] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:56:53,971 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:53] "GET / HTTP/1.1" 200 -
+2025-08-19 22:56:53,984 - __main__ - INFO - Client disconnected: Nu98UPxcrjKjvkd3AAAF
+2025-08-19 22:56:53,984 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:53] "GET /socket.io/?EIO=4&transport=websocket&sid=gK6b6NXs8-ASQ-A6AAAE HTTP/1.1" 200 -
+2025-08-19 22:56:54,014 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:56:54,093 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:56:54,141 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:56:54,158 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:56:54,176 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:56:54,407 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Nfk2 HTTP/1.1" 200 -
+2025-08-19 22:56:54,671 - __main__ - INFO - Client connected: 3WfyRDSQ6yVux45WAAAH
+2025-08-19 22:56:54,672 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "POST /socket.io/?EIO=4&transport=polling&t=PZ3NfpC&sid=yXXcijPPDfYlhpROAAAG HTTP/1.1" 200 -
+2025-08-19 22:56:54,734 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NfpE&sid=yXXcijPPDfYlhpROAAAG HTTP/1.1" 200 -
+2025-08-19 22:56:54,742 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:54] "GET /socket.io/?EIO=4&transport=polling&t=PZ3NfuJ&sid=yXXcijPPDfYlhpROAAAG HTTP/1.1" 200 -
+2025-08-19 22:56:55,242 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:55] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:56:55,246 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:56:55] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 22:57:20,216 - network_capture - WARNING - Threat detected: MALWARE from 10.0.0.51 - CRITICAL
+2025-08-19 22:57:25,701 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 203.0.113.1 - HIGH
+2025-08-19 22:57:26,017 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 10.0.0.50 - HIGH
+2025-08-19 22:57:26,386 - network_capture - WARNING - Threat detected: DDoS from 172.16.0.10 - HIGH
+2025-08-19 22:57:26,715 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.100 - HIGH
+2025-08-19 22:57:29,887 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:57:33,666 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:57:39,009 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 172.16.0.10 - HIGH
+2025-08-19 22:58:04,653 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "GET / HTTP/1.1" 200 -
+2025-08-19 22:58:04,667 - __main__ - INFO - Client disconnected: 3WfyRDSQ6yVux45WAAAH
+2025-08-19 22:58:04,668 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "GET /socket.io/?EIO=4&transport=websocket&sid=yXXcijPPDfYlhpROAAAG HTTP/1.1" 200 -
+2025-08-19 22:58:04,705 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:58:04,823 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:58:04,878 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:58:04,891 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:58:04,920 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:04] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:58:05,135 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Nw_G HTTP/1.1" 200 -
+2025-08-19 22:58:05,218 - network_capture - WARNING - Threat detected: DDoS from 198.51.100.1 - CRITICAL
+2025-08-19 22:58:05,401 - __main__ - INFO - Client connected: NRKUlqkQEyl2WCiPAAAJ
+2025-08-19 22:58:05,402 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:05] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Nx4I&sid=g8jOso5Qbv36bOBgAAAI HTTP/1.1" 200 -
+2025-08-19 22:58:05,449 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Nx4J&sid=g8jOso5Qbv36bOBgAAAI HTTP/1.1" 200 -
+2025-08-19 22:58:05,457 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Nx9E&sid=g8jOso5Qbv36bOBgAAAI HTTP/1.1" 200 -
+2025-08-19 22:58:05,483 - network_capture - WARNING - Threat detected: MALWARE from 192.0.2.1 - HIGH
+2025-08-19 22:58:05,721 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:05] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 22:58:05,723 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:05] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 22:58:16,024 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:58:16,029 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:16] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 22:58:29,889 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:58:33,668 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:58:43,525 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET / HTTP/1.1" 200 -
+2025-08-19 22:58:43,536 - __main__ - INFO - Client disconnected: NRKUlqkQEyl2WCiPAAAJ
+2025-08-19 22:58:43,537 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET /socket.io/?EIO=4&transport=websocket&sid=g8jOso5Qbv36bOBgAAAI HTTP/1.1" 200 -
+2025-08-19 22:58:43,565 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:58:43,634 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:58:43,657 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:58:43,676 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:58:43,697 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:58:43,942 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:43] "GET /socket.io/?EIO=4&transport=polling&t=PZ3O4Ti HTTP/1.1" 200 -
+2025-08-19 22:58:44,204 - __main__ - INFO - Client connected: XHCjfWp6dvNtULv4AAAL
+2025-08-19 22:58:44,205 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:44] "POST /socket.io/?EIO=4&transport=polling&t=PZ3O4Yh&sid=0kywAS2HFuc7U9JBAAAK HTTP/1.1" 200 -
+2025-08-19 22:58:44,266 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:44] "GET /socket.io/?EIO=4&transport=polling&t=PZ3O4Yi&sid=0kywAS2HFuc7U9JBAAAK HTTP/1.1" 200 -
+2025-08-19 22:58:44,274 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:58:44] "GET /socket.io/?EIO=4&transport=polling&t=PZ3O4dm&sid=0kywAS2HFuc7U9JBAAAK HTTP/1.1" 200 -
+2025-08-19 22:58:51,305 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.102 - HIGH
+2025-08-19 22:58:51,660 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 22:59:02,465 - network_capture - WARNING - Threat detected: PORT_SCAN from 198.51.100.1 - HIGH
+2025-08-19 22:59:16,538 - network_capture - WARNING - Threat detected: DDoS from 198.51.100.1 - CRITICAL
+2025-08-19 22:59:29,891 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:59:33,669 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:59:51,106 - network_capture - WARNING - Threat detected: DDoS from 172.16.0.10 - HIGH
+2025-08-19 22:59:56,756 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.102 - HIGH
+2025-08-19 22:59:59,418 - network_capture - WARNING - Threat detected: PORT_SCAN from 203.0.113.1 - HIGH
+2025-08-19 23:00:13,511 - network_capture - WARNING - Threat detected: PORT_SCAN from 203.0.113.1 - HIGH
+2025-08-19 23:00:29,893 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:00:29,939 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:00:29,942 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:00:29,942 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:00:33,671 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:00:33,723 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:00:33,725 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:00:33,726 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:00:43,898 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.100 - HIGH
+2025-08-19 23:00:44,226 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.50 - CRITICAL
+2025-08-19 23:00:53,534 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.100 - HIGH
+2025-08-19 23:00:53,668 - network_capture - WARNING - Threat detected: PORT_SCAN from 10.0.0.50 - HIGH
+2025-08-19 23:00:58,411 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.100 - HIGH
+2025-08-19 23:00:58,832 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 23:01:24,209 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 23:01:29,894 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:01:33,675 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:01:34,338 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 172.16.0.10 - HIGH
+2025-08-19 23:01:45,873 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.100 - HIGH
+2025-08-19 23:01:45,991 - network_capture - WARNING - Threat detected: MALWARE from 198.51.100.1 - CRITICAL
+2025-08-19 23:01:46,285 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.102 - HIGH
+2025-08-19 23:02:12,017 - network_capture - WARNING - Threat detected: PORT_SCAN from 172.16.0.10 - HIGH
+2025-08-19 23:02:29,896 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:02:31,712 - network_capture - WARNING - Threat detected: PORT_SCAN from 198.51.100.1 - HIGH
+2025-08-19 23:02:33,677 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:02:35,381 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.100 - HIGH
+2025-08-19 23:02:35,739 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.101 - CRITICAL
+2025-08-19 23:02:35,860 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.100 - HIGH
+2025-08-19 23:02:50,136 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 23:03:22,066 - network_capture - WARNING - Threat detected: DDoS from 192.168.1.100 - CRITICAL
+2025-08-19 23:03:29,897 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:03:33,678 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:03:36,791 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 23:03:41,657 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.51 - CRITICAL
+2025-08-19 23:03:48,256 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET / HTTP/1.1" 200 -
+2025-08-19 23:03:48,272 - __main__ - INFO - Client disconnected: XHCjfWp6dvNtULv4AAAL
+2025-08-19 23:03:48,273 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET /socket.io/?EIO=4&transport=websocket&sid=0kywAS2HFuc7U9JBAAAK HTTP/1.1" 200 -
+2025-08-19 23:03:48,310 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:03:48,445 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:03:48,486 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:03:48,519 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:03:48,537 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:03:48,753 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:48] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PEuM HTTP/1.1" 200 -
+2025-08-19 23:03:49,017 - __main__ - INFO - Client connected: BY1YUD9wwPjAAO1IAAAN
+2025-08-19 23:03:49,018 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:49] "POST /socket.io/?EIO=4&transport=polling&t=PZ3PEzJ&sid=kZg7VhgysBoiNrwiAAAM HTTP/1.1" 200 -
+2025-08-19 23:03:49,069 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:49] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PEzK&sid=kZg7VhgysBoiNrwiAAAM HTTP/1.1" 200 -
+2025-08-19 23:03:49,078 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:49] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PF2I&sid=kZg7VhgysBoiNrwiAAAM HTTP/1.1" 200 -
+2025-08-19 23:03:50,870 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:50] "GET / HTTP/1.1" 200 -
+2025-08-19 23:03:50,890 - __main__ - INFO - Client disconnected: BY1YUD9wwPjAAO1IAAAN
+2025-08-19 23:03:50,890 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:50] "GET /socket.io/?EIO=4&transport=websocket&sid=kZg7VhgysBoiNrwiAAAM HTTP/1.1" 200 -
+2025-08-19 23:03:50,912 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:50] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:03:50,972 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:50] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:03:50,998 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:50] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:03:51,015 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:03:51,035 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:03:51,289 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PFVs HTTP/1.1" 200 -
+2025-08-19 23:03:51,495 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET / HTTP/1.1" 200 -
+2025-08-19 23:03:51,552 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:03:51,592 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:03:51,597 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PFfY HTTP/1.1" 200 -
+2025-08-19 23:03:51,639 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:03:51,640 - __main__ - INFO - Client connected: KETlXwwYsc8HM8YbAAAQ
+2025-08-19 23:03:51,642 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "POST /socket.io/?EIO=4&transport=polling&t=PZ3PFgG&sid=iFgPIWpOC-a5k355AAAP HTTP/1.1" 200 -
+2025-08-19 23:03:51,643 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PFgI&sid=iFgPIWpOC-a5k355AAAP HTTP/1.1" 200 -
+2025-08-19 23:03:51,655 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:03:51,676 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:03:51,956 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:51] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PFgZ&sid=iFgPIWpOC-a5k355AAAP HTTP/1.1" 200 -
+2025-08-19 23:03:52,249 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET / HTTP/1.1" 200 -
+2025-08-19 23:03:52,266 - __main__ - INFO - Client disconnected: KETlXwwYsc8HM8YbAAAQ
+2025-08-19 23:03:52,267 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /socket.io/?EIO=4&transport=websocket&sid=iFgPIWpOC-a5k355AAAP HTTP/1.1" 200 -
+2025-08-19 23:03:52,294 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:03:52,349 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:03:52,353 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PFrL HTTP/1.1" 200 -
+2025-08-19 23:03:52,394 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:03:52,411 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:03:52,440 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:03:52,688 - __main__ - INFO - Client connected: NxiWZrQJLv6Vr5nIAAAS
+2025-08-19 23:03:52,689 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "POST /socket.io/?EIO=4&transport=polling&t=PZ3PFru&sid=xG3LSydeXBYLbganAAAR HTTP/1.1" 200 -
+2025-08-19 23:03:52,690 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PFrv&sid=xG3LSydeXBYLbganAAAR HTTP/1.1" 200 -
+2025-08-19 23:03:52,856 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET / HTTP/1.1" 200 -
+2025-08-19 23:03:52,876 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /socket.io/?EIO=4&transport=websocket&sid=xG3LSydeXBYLbganAAAR HTTP/1.1" 200 -
+2025-08-19 23:03:52,905 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:03:52,956 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:03:52,962 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PF-s HTTP/1.1" 200 -
+2025-08-19 23:03:52,987 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:52] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:03:53,007 - __main__ - INFO - Client connected: N2Ojw3BKu-P3TcLgAAAU
+2025-08-19 23:03:53,010 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "POST /socket.io/?EIO=4&transport=polling&t=PZ3PF_X&sid=UT2uavGrrUYgYmmUAAAT HTTP/1.1" 200 -
+2025-08-19 23:03:53,012 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:03:53,037 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:03:53,317 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PF_Y&sid=UT2uavGrrUYgYmmUAAAT HTTP/1.1" 200 -
+2025-08-19 23:03:53,326 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PG4h&sid=UT2uavGrrUYgYmmUAAAT HTTP/1.1" 200 -
+2025-08-19 23:03:53,508 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET / HTTP/1.1" 200 -
+2025-08-19 23:03:53,527 - __main__ - INFO - Client disconnected: N2Ojw3BKu-P3TcLgAAAU
+2025-08-19 23:03:53,528 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /socket.io/?EIO=4&transport=websocket&sid=UT2uavGrrUYgYmmUAAAT HTTP/1.1" 200 -
+2025-08-19 23:03:53,556 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:03:53,608 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:03:53,656 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:03:53,671 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:03:53,689 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:03:53,924 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:53] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PG91 HTTP/1.1" 200 -
+2025-08-19 23:03:54,192 - __main__ - INFO - Client connected: 1QBfbsQUL-41hv_DAAAW
+2025-08-19 23:03:54,193 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:54] "POST /socket.io/?EIO=4&transport=polling&t=PZ3PGE9&sid=EO2VvXcSKD3ENZ6zAAAV HTTP/1.1" 200 -
+2025-08-19 23:03:54,238 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:54] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PGEB&sid=EO2VvXcSKD3ENZ6zAAAV HTTP/1.1" 200 -
+2025-08-19 23:03:54,244 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:54] "GET /socket.io/?EIO=4&transport=polling&t=PZ3PGJ2&sid=EO2VvXcSKD3ENZ6zAAAV HTTP/1.1" 200 -
+2025-08-19 23:03:55,154 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 23:03:55,388 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:55] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:03:55,393 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:03:55] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:03:56,598 - network_capture - WARNING - Threat detected: PORT_SCAN from 10.0.0.50 - HIGH
+2025-08-19 23:04:12,701 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.50 - HIGH
+2025-08-19 23:04:22,175 - network_capture - WARNING - Threat detected: DDoS from 172.16.0.10 - CRITICAL
+2025-08-19 23:04:29,899 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:04:33,680 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:04:43,423 - __main__ - INFO - Client disconnected: NxiWZrQJLv6Vr5nIAAAS
+2025-08-19 23:04:44,538 - network_capture - WARNING - Threat detected: MALWARE from 10.0.0.50 - CRITICAL
+2025-08-19 23:05:01,053 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 10.0.0.50 - HIGH
+2025-08-19 23:05:09,695 - network_capture - WARNING - Threat detected: MALWARE from 203.0.113.1 - HIGH
+2025-08-19 23:05:12,165 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 203.0.113.1 - HIGH
+2025-08-19 23:05:12,627 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 10.0.0.51 - HIGH
+2025-08-19 23:05:24,883 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.102 - CRITICAL
+2025-08-19 23:05:27,389 - network_capture - WARNING - Threat detected: MALWARE from 172.16.0.10 - HIGH
+2025-08-19 23:05:27,680 - network_capture - WARNING - Threat detected: DDoS from 192.168.1.101 - HIGH
+2025-08-19 23:05:29,900 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:05:29,943 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:05:29,945 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:05:29,946 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:05:33,682 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:05:33,727 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:05:33,729 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:05:33,730 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:05:55,604 - network_capture - WARNING - Threat detected: MALWARE from 192.0.2.1 - CRITICAL
+2025-08-19 23:06:03,609 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 198.51.100.1 - HIGH
+2025-08-19 23:06:04,273 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.51 - HIGH
+2025-08-19 23:06:13,821 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 23:06:29,902 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:06:33,683 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:06:35,699 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.51 - HIGH
+2025-08-19 23:06:57,042 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 10.0.0.51 - HIGH
+2025-08-19 23:07:12,719 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.101 - HIGH
+2025-08-19 23:07:16,938 - network_capture - WARNING - Threat detected: DDoS from 198.51.100.1 - HIGH
+2025-08-19 23:07:29,187 - network_capture - WARNING - Threat detected: PORT_SCAN from 10.0.0.50 - HIGH
+2025-08-19 23:07:29,904 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:07:33,684 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:07:34,500 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.102 - HIGH
+2025-08-19 23:07:47,391 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.102 - HIGH
+2025-08-19 23:08:29,905 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:08:33,685 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:08:39,065 - network_capture - WARNING - Threat detected: PORT_SCAN from 172.16.0.10 - HIGH
+2025-08-19 23:08:41,546 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 198.51.100.1 - HIGH
+2025-08-19 23:08:47,170 - network_capture - WARNING - Threat detected: PORT_SCAN from 198.51.100.1 - HIGH
+2025-08-19 23:08:51,604 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.51 - CRITICAL
+2025-08-19 23:09:11,225 - werkzeug - INFO -  * Detected change in 'C:\\Users\\SHAHID\\Desktop\\IDS NEW\\network_capture.py', reloading
+2025-08-19 23:09:11,826 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 23:09:14,148 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:09:14,149 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:09:14,150 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:09:14,151 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:09:14,152 - database_manager - INFO - Database maintenance started
+2025-08-19 23:09:14,163 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:09:14,163 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:09:14,164 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:09:14,209 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:09:14,212 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:09:14,215 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 23:09:14,223 - werkzeug - INFO -  * Debugger PIN: 641-868-024
+2025-08-19 23:09:14,339 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:09:14] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QUKM HTTP/1.1" 200 -
+2025-08-19 23:09:14,393 - __main__ - INFO - Client connected: pq1INu_ZcAfIQZ8NAAAB
+2025-08-19 23:09:14,394 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:09:14] "POST /socket.io/?EIO=4&transport=polling&t=PZ3QUSc&sid=ZEzpoJ630v5P47cyAAAA HTTP/1.1" 200 -
+2025-08-19 23:09:14,659 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:09:14] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QUSe&sid=ZEzpoJ630v5P47cyAAAA HTTP/1.1" 200 -
+2025-08-19 23:09:14,677 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:09:14] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QUXn&sid=ZEzpoJ630v5P47cyAAAA HTTP/1.1" 200 -
+2025-08-19 23:09:29,906 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:10:14,150 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:10:29,907 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:10:29,947 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:10:29,950 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:10:29,951 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:10:35,296 - werkzeug - INFO -  * Detected change in 'C:\\Users\\SHAHID\\Desktop\\IDS NEW\\network_capture.py', reloading
+2025-08-19 23:10:35,550 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 23:10:37,332 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:10:37,333 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:10:37,334 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:10:37,334 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:10:37,335 - database_manager - INFO - Database maintenance started
+2025-08-19 23:10:37,344 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:10:37,345 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:10:37,346 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:10:37,394 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:10:37,394 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:10:37,400 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 23:10:37,406 - werkzeug - INFO -  * Debugger PIN: 641-868-024
+2025-08-19 23:10:37,532 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Qob7 HTTP/1.1" 200 -
+2025-08-19 23:10:37,538 - __main__ - INFO - Client connected: APXC1sBcA95oDi1pAAAB
+2025-08-19 23:10:37,539 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:37] "POST /socket.io/?EIO=4&transport=polling&t=PZ3QomU&sid=sxezDxovuhia9GE9AAAA HTTP/1.1" 200 -
+2025-08-19 23:10:37,859 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QomW&sid=sxezDxovuhia9GE9AAAA HTTP/1.1" 200 -
+2025-08-19 23:10:39,383 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:39] "GET / HTTP/1.1" 200 -
+2025-08-19 23:10:39,395 - __main__ - INFO - Client disconnected: APXC1sBcA95oDi1pAAAB
+2025-08-19 23:10:39,396 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:39] "GET /socket.io/?EIO=4&transport=websocket&sid=sxezDxovuhia9GE9AAAA HTTP/1.1" 200 -
+2025-08-19 23:10:39,503 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:39] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:10:40,450 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:40] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:10:40,522 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:40] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:10:40,541 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:40] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:10:40,568 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:40] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:10:40,764 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:40] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QpTj HTTP/1.1" 200 -
+2025-08-19 23:10:41,031 - __main__ - INFO - Client connected: h4qtBjr_8K9S8f89AAAD
+2025-08-19 23:10:41,032 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:41] "POST /socket.io/?EIO=4&transport=polling&t=PZ3QpZ2&sid=Vs3xXO0xNd6yc1LqAAAC HTTP/1.1" 200 -
+2025-08-19 23:10:41,079 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:41] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QpZ5&sid=Vs3xXO0xNd6yc1LqAAAC HTTP/1.1" 200 -
+2025-08-19 23:10:41,091 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:41] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Qpd_&sid=Vs3xXO0xNd6yc1LqAAAC HTTP/1.1" 200 -
+2025-08-19 23:10:46,138 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 23:10:46,139 - network_capture - INFO - Network capture engine initialized
+2025-08-19 23:10:46,140 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 23:10:46,140 - __main__ - INFO - Network monitoring started
+2025-08-19 23:10:46,141 - network_capture - INFO - Starting network simulation mode
+2025-08-19 23:10:46,142 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:46] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 23:10:52,215 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET / HTTP/1.1" 200 -
+2025-08-19 23:10:52,236 - __main__ - INFO - Client disconnected: h4qtBjr_8K9S8f89AAAD
+2025-08-19 23:10:52,237 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /socket.io/?EIO=4&transport=websocket&sid=Vs3xXO0xNd6yc1LqAAAC HTTP/1.1" 200 -
+2025-08-19 23:10:52,263 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:10:52,358 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:10:52,408 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:10:52,423 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:10:52,442 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:10:52,668 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QsO0 HTTP/1.1" 200 -
+2025-08-19 23:10:52,933 - __main__ - INFO - Client connected: Qp-IyOeQkknDYVM-AAAF
+2025-08-19 23:10:52,934 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "POST /socket.io/?EIO=4&transport=polling&t=PZ3QsT1&sid=sHwW0tXVHLzVHsxsAAAE HTTP/1.1" 200 -
+2025-08-19 23:10:52,979 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QsT3&sid=sHwW0tXVHLzVHsxsAAAE HTTP/1.1" 200 -
+2025-08-19 23:10:52,989 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:10:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QsXu&sid=sHwW0tXVHLzVHsxsAAAE HTTP/1.1" 200 -
+2025-08-19 23:10:54,438 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.100 - CRITICAL
+2025-08-19 23:10:54,574 - network_capture - WARNING - Threat detected: DDoS from 203.0.113.1 - CRITICAL
+2025-08-19 23:10:58,740 - network_capture - WARNING - Threat detected: DDoS from 203.0.113.1 - CRITICAL
+2025-08-19 23:11:02,798 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "GET / HTTP/1.1" 200 -
+2025-08-19 23:11:02,815 - __main__ - INFO - Client disconnected: Qp-IyOeQkknDYVM-AAAF
+2025-08-19 23:11:02,816 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "GET /socket.io/?EIO=4&transport=websocket&sid=sHwW0tXVHLzVHsxsAAAE HTTP/1.1" 200 -
+2025-08-19 23:11:02,837 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:11:02,889 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:11:02,916 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:11:02,931 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:11:02,954 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:02] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:11:03,208 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QuyZ HTTP/1.1" 200 -
+2025-08-19 23:11:03,456 - __main__ - INFO - Client connected: nxIPZ6icSpRn-onGAAAH
+2025-08-19 23:11:03,457 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:03] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Qv1g&sid=QdNdZfZCIcL-VZqkAAAG HTTP/1.1" 200 -
+2025-08-19 23:11:03,517 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Qv1h&sid=QdNdZfZCIcL-VZqkAAAG HTTP/1.1" 200 -
+2025-08-19 23:11:03,524 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Qv6Y&sid=QdNdZfZCIcL-VZqkAAAG HTTP/1.1" 200 -
+2025-08-19 23:11:06,093 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET / HTTP/1.1" 200 -
+2025-08-19 23:11:06,107 - __main__ - INFO - Client disconnected: nxIPZ6icSpRn-onGAAAH
+2025-08-19 23:11:06,107 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /socket.io/?EIO=4&transport=websocket&sid=QdNdZfZCIcL-VZqkAAAG HTTP/1.1" 200 -
+2025-08-19 23:11:06,140 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:11:06,188 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:11:06,226 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:11:06,257 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:11:06,288 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:11:06,507 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Qvm7 HTTP/1.1" 200 -
+2025-08-19 23:11:06,774 - __main__ - INFO - Client connected: 0XbOMI1A9cTrQDIkAAAJ
+2025-08-19 23:11:06,775 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "POST /socket.io/?EIO=4&transport=polling&t=PZ3QvrE&sid=VBr8uNgiymKbXy5mAAAI HTTP/1.1" 200 -
+2025-08-19 23:11:06,822 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QvrF&sid=VBr8uNgiymKbXy5mAAAI HTTP/1.1" 200 -
+2025-08-19 23:11:06,833 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QvwC&sid=VBr8uNgiymKbXy5mAAAI HTTP/1.1" 200 -
+2025-08-19 23:11:10,416 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-19 23:11:13,744 - network_capture - WARNING - Threat detected: PORT_SCAN from 203.0.113.1 - HIGH
+2025-08-19 23:11:14,295 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-19 23:11:16,111 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET / HTTP/1.1" 200 -
+2025-08-19 23:11:16,127 - __main__ - INFO - Client disconnected: 0XbOMI1A9cTrQDIkAAAJ
+2025-08-19 23:11:16,128 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /socket.io/?EIO=4&transport=websocket&sid=VBr8uNgiymKbXy5mAAAI HTTP/1.1" 200 -
+2025-08-19 23:11:16,156 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:11:16,335 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:11:16,385 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:11:16,400 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:11:16,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:11:16,673 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QyEd HTTP/1.1" 200 -
+2025-08-19 23:11:16,937 - __main__ - INFO - Client connected: VEVik5VLBAx5UANoAAAL
+2025-08-19 23:11:16,938 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "POST /socket.io/?EIO=4&transport=polling&t=PZ3QyK5&sid=bJ9Ve_oL-hTiI5g4AAAK HTTP/1.1" 200 -
+2025-08-19 23:11:16,985 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QyK6&sid=bJ9Ve_oL-hTiI5g4AAAK HTTP/1.1" 200 -
+2025-08-19 23:11:16,993 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:16] "GET /socket.io/?EIO=4&transport=polling&t=PZ3QyO_&sid=bJ9Ve_oL-hTiI5g4AAAK HTTP/1.1" 200 -
+2025-08-19 23:11:18,487 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:18] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:11:18,491 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:18] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:11:29,909 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:11:31,056 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.100 - CRITICAL
+2025-08-19 23:11:37,333 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:11:51,343 - network_capture - WARNING - Threat detected: MALWARE from 172.16.0.10 - CRITICAL
+2025-08-19 23:11:56,684 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "GET / HTTP/1.1" 200 -
+2025-08-19 23:11:56,704 - __main__ - INFO - Client disconnected: VEVik5VLBAx5UANoAAAL
+2025-08-19 23:11:56,705 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "GET /socket.io/?EIO=4&transport=websocket&sid=bJ9Ve_oL-hTiI5g4AAAK HTTP/1.1" 200 -
+2025-08-19 23:11:56,738 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:11:56,839 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:11:56,904 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:11:56,922 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:11:56,952 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:56] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:11:57,152 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3R67W HTTP/1.1" 200 -
+2025-08-19 23:11:57,417 - __main__ - INFO - Client connected: j1W_dM7pDgH39Wh6AAAN
+2025-08-19 23:11:57,418 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:57] "POST /socket.io/?EIO=4&transport=polling&t=PZ3R6Ca&sid=U2sHiBvhy1yPRukfAAAM HTTP/1.1" 200 -
+2025-08-19 23:11:57,466 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3R6Cb&sid=U2sHiBvhy1yPRukfAAAM HTTP/1.1" 200 -
+2025-08-19 23:11:57,477 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:11:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3R6HW&sid=U2sHiBvhy1yPRukfAAAM HTTP/1.1" 200 -
+2025-08-19 23:12:04,516 - network_capture - WARNING - Threat detected: MALWARE from 192.0.2.1 - HIGH
+2025-08-19 23:12:10,120 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET / HTTP/1.1" 200 -
+2025-08-19 23:12:10,142 - __main__ - INFO - Client disconnected: j1W_dM7pDgH39Wh6AAAN
+2025-08-19 23:12:10,143 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /socket.io/?EIO=4&transport=websocket&sid=U2sHiBvhy1yPRukfAAAM HTTP/1.1" 200 -
+2025-08-19 23:12:10,185 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:12:10,255 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:12:10,320 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:12:10,337 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:12:10,365 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:12:10,571 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3R9P8 HTTP/1.1" 200 -
+2025-08-19 23:12:10,839 - __main__ - INFO - Client connected: VAnwUB7cm8grXhLhAAAP
+2025-08-19 23:12:10,840 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "POST /socket.io/?EIO=4&transport=polling&t=PZ3R9UE&sid=wmCgnaADwkyy1oChAAAO HTTP/1.1" 200 -
+2025-08-19 23:12:10,887 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3R9UF&sid=wmCgnaADwkyy1oChAAAO HTTP/1.1" 200 -
+2025-08-19 23:12:10,898 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3R9ZD&sid=wmCgnaADwkyy1oChAAAO HTTP/1.1" 200 -
+2025-08-19 23:12:23,282 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:23] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:12:23,286 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:23] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:12:29,911 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:12:37,335 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:12:46,893 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.101 - CRITICAL
+2025-08-19 23:12:49,442 - network_capture - WARNING - Threat detected: DDoS from 203.0.113.1 - CRITICAL
+2025-08-19 23:12:57,156 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET / HTTP/1.1" 200 -
+2025-08-19 23:12:57,172 - __main__ - INFO - Client disconnected: VAnwUB7cm8grXhLhAAAP
+2025-08-19 23:12:57,173 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /socket.io/?EIO=4&transport=websocket&sid=wmCgnaADwkyy1oChAAAO HTTP/1.1" 200 -
+2025-08-19 23:12:57,198 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:12:57,270 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:12:57,295 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:12:57,315 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:12:57,335 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:12:57,586 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RKtl HTTP/1.1" 200 -
+2025-08-19 23:12:57,848 - __main__ - INFO - Client connected: OQdjl8OdU4WOIKygAAAR
+2025-08-19 23:12:57,850 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "POST /socket.io/?EIO=4&transport=polling&t=PZ3RKyt&sid=vKlZTnH5Ax67Tj4-AAAQ HTTP/1.1" 200 -
+2025-08-19 23:12:57,912 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RKyw&sid=vKlZTnH5Ax67Tj4-AAAQ HTTP/1.1" 200 -
+2025-08-19 23:12:57,922 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:12:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RL1z&sid=vKlZTnH5Ax67Tj4-AAAQ HTTP/1.1" 200 -
+2025-08-19 23:13:16,898 - network_capture - WARNING - Threat detected: MALWARE from 10.0.0.50 - HIGH
+2025-08-19 23:13:29,411 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET / HTTP/1.1" 200 -
+2025-08-19 23:13:29,432 - __main__ - INFO - Client disconnected: OQdjl8OdU4WOIKygAAAR
+2025-08-19 23:13:29,433 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET /socket.io/?EIO=4&transport=websocket&sid=vKlZTnH5Ax67Tj4-AAAQ HTTP/1.1" 200 -
+2025-08-19 23:13:29,460 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:13:29,534 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:13:29,561 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:13:29,586 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:13:29,595 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:13:29,848 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RSlu HTTP/1.1" 200 -
+2025-08-19 23:13:29,913 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:13:30,114 - __main__ - INFO - Client connected: GAX1sOXCV0UpZMIBAAAT
+2025-08-19 23:13:30,116 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:30] "POST /socket.io/?EIO=4&transport=polling&t=PZ3RSqy&sid=fhTuzCCEPVkQJqCpAAAS HTTP/1.1" 200 -
+2025-08-19 23:13:30,161 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:30] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RSqz&sid=fhTuzCCEPVkQJqCpAAAS HTTP/1.1" 200 -
+2025-08-19 23:13:30,169 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:30] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RSvs&sid=fhTuzCCEPVkQJqCpAAAS HTTP/1.1" 200 -
+2025-08-19 23:13:33,377 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.101 - HIGH
+2025-08-19 23:13:33,425 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET / HTTP/1.1" 200 -
+2025-08-19 23:13:33,439 - __main__ - INFO - Client disconnected: GAX1sOXCV0UpZMIBAAAT
+2025-08-19 23:13:33,439 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /socket.io/?EIO=4&transport=websocket&sid=fhTuzCCEPVkQJqCpAAAS HTTP/1.1" 200 -
+2025-08-19 23:13:33,463 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:13:33,533 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:13:33,568 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:13:33,587 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:13:33,597 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:13:33,839 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RTkN HTTP/1.1" 200 -
+2025-08-19 23:13:33,850 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET / HTTP/1.1" 200 -
+2025-08-19 23:13:33,887 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:13:33,952 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:13:33,979 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:13:33,996 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:33] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:13:34,016 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:13:34,110 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RTqu HTTP/1.1" 200 -
+2025-08-19 23:13:34,173 - __main__ - INFO - Client connected: JaHzD_0l_29mCZMpAAAW
+2025-08-19 23:13:34,175 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "POST /socket.io/?EIO=4&transport=polling&t=PZ3RTtX&sid=4qH8hlVFoUUYnvk3AAAV HTTP/1.1" 200 -
+2025-08-19 23:13:34,177 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RTtY&sid=4qH8hlVFoUUYnvk3AAAV HTTP/1.1" 200 -
+2025-08-19 23:13:34,215 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET / HTTP/1.1" 200 -
+2025-08-19 23:13:34,253 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:13:34,321 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:13:34,323 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RTwc HTTP/1.1" 200 -
+2025-08-19 23:13:34,368 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:13:34,381 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:13:34,401 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:13:34,421 - __main__ - INFO - Client connected: ATWdAsIDXf12zqv0AAAY
+2025-08-19 23:13:34,423 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "POST /socket.io/?EIO=4&transport=polling&t=PZ3RTxE&sid=uLWZpEYiXPNOB0_mAAAX HTTP/1.1" 200 -
+2025-08-19 23:13:34,424 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RTxF&sid=uLWZpEYiXPNOB0_mAAAX HTTP/1.1" 200 -
+2025-08-19 23:13:34,676 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:34] "GET /socket.io/?EIO=4&transport=polling&t=PZ3RTyV&sid=uLWZpEYiXPNOB0_mAAAX HTTP/1.1" 200 -
+2025-08-19 23:13:37,336 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:13:38,612 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:38] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:13:38,619 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:13:38] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:36:52,101 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:36:52,101 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:36:52,102 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:36:52,103 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:36:52,103 - database_manager - INFO - Database maintenance started
+2025-08-19 23:36:52,112 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:36:52,113 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:36:52,113 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:36:52,145 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:36:52,145 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:36:53,609 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.100:5000
+2025-08-19 23:36:53,610 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 23:36:53,610 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 23:36:55,948 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:36:55,949 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:36:55,949 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:36:55,950 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:36:55,950 - database_manager - INFO - Database maintenance started
+2025-08-19 23:36:55,958 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:36:55,959 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:36:55,959 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:36:55,992 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:36:55,992 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:36:55,997 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 23:36:56,002 - werkzeug - INFO -  * Debugger PIN: 641-868-024
+2025-08-19 23:36:56,115 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:56] "GET / HTTP/1.1" 200 -
+2025-08-19 23:36:56,226 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:56] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-08-19 23:36:58,162 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:36:58,193 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 23:36:58,211 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:36:58,226 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:36:58,248 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:36:58,471 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PZ3WqfR HTTP/1.1" 200 -
+2025-08-19 23:36:58,734 - __main__ - INFO - Client connected: QnPRjX2K80xRRTCTAAAB
+2025-08-19 23:36:58,735 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Wqkk&sid=npoM3YFEmaSDs47iAAAA HTTP/1.1" 200 -
+2025-08-19 23:36:58,797 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Wqkm&sid=npoM3YFEmaSDs47iAAAA HTTP/1.1" 200 -
+2025-08-19 23:36:58,810 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Wqpr&sid=npoM3YFEmaSDs47iAAAA HTTP/1.1" 200 -
+2025-08-19 23:37:01,256 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-19 23:37:04,749 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 23:37:04,750 - network_capture - INFO - Network capture engine initialized
+2025-08-19 23:37:04,751 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 23:37:04,752 - __main__ - INFO - Network monitoring started
+2025-08-19 23:37:04,752 - network_capture - INFO - Starting network simulation mode
+2025-08-19 23:37:04,754 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:04] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 23:37:06,664 - network_capture - WARNING - Threat detected: DDoS from 10.0.0.51 - HIGH
+2025-08-19 23:37:06,825 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:06] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:37:06,829 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:06] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:37:07,305 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.101 - HIGH
+2025-08-19 23:37:26,508 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:26] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:26,532 - __main__ - INFO - Client disconnected: QnPRjX2K80xRRTCTAAAB
+2025-08-19 23:37:26,533 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:26] "GET /socket.io/?EIO=4&transport=websocket&sid=npoM3YFEmaSDs47iAAAA HTTP/1.1" 200 -
+2025-08-19 23:37:26,557 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:26] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:37:26,976 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:26] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:27,025 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:27,036 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:27,057 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:27,320 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Wxhw HTTP/1.1" 200 -
+2025-08-19 23:37:27,587 - __main__ - INFO - Client connected: Ab0oYfoQclJ1ik_gAAAD
+2025-08-19 23:37:27,588 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "POST /socket.io/?EIO=4&transport=polling&t=PZ3WxnS&sid=eiYkatpS3cp5LJc_AAAC HTTP/1.1" 200 -
+2025-08-19 23:37:27,634 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "GET /socket.io/?EIO=4&transport=polling&t=PZ3WxnT&sid=eiYkatpS3cp5LJc_AAAC HTTP/1.1" 200 -
+2025-08-19 23:37:27,644 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:27] "GET /socket.io/?EIO=4&transport=polling&t=PZ3WxsP&sid=eiYkatpS3cp5LJc_AAAC HTTP/1.1" 200 -
+2025-08-19 23:37:28,194 - network_capture - INFO - Packet capture stopped
+2025-08-19 23:37:28,194 - __main__ - INFO - Network monitoring stopped
+2025-08-19 23:37:28,196 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:28] "POST /api/monitoring/stop HTTP/1.1" 200 -
+2025-08-19 23:37:47,035 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:37:47,035 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:37:47,037 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:37:47,037 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:37:47,038 - database_manager - INFO - Database maintenance started
+2025-08-19 23:37:47,044 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:37:47,044 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:37:47,045 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:37:47,075 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:37:47,076 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:37:48,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.100:5000
+2025-08-19 23:37:48,496 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 23:37:48,497 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 23:37:50,575 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:37:50,575 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:37:50,576 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:37:50,577 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:37:50,577 - database_manager - INFO - Database maintenance started
+2025-08-19 23:37:50,584 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:37:50,584 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:37:50,585 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:37:50,618 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:37:50,621 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:37:50,627 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 23:37:50,632 - werkzeug - INFO -  * Debugger PIN: 641-868-024
+2025-08-19 23:37:50,747 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:50] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:50,749 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:50] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X0on HTTP/1.1" 200 -
+2025-08-19 23:37:50,841 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:50] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-08-19 23:37:52,599 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X1y8 HTTP/1.1" 200 -
+2025-08-19 23:37:52,609 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:52,629 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 23:37:52,639 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:52,649 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:52,657 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:52,944 - __main__ - INFO - Client connected: wrqZxPKIwDK7FwncAAAC
+2025-08-19 23:37:52,946 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X1ym&sid=dgjXpxJ8MbbJrDD1AAAB HTTP/1.1" 200 -
+2025-08-19 23:37:52,947 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:52] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X1yn&sid=dgjXpxJ8MbbJrDD1AAAB HTTP/1.1" 200 -
+2025-08-19 23:37:53,208 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:53] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X21x&sid=dgjXpxJ8MbbJrDD1AAAB HTTP/1.1" 200 -
+2025-08-19 23:37:54,525 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:54,541 - __main__ - INFO - Client disconnected: wrqZxPKIwDK7FwncAAAC
+2025-08-19 23:37:54,543 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET /socket.io/?EIO=4&transport=websocket&sid=dgjXpxJ8MbbJrDD1AAAB HTTP/1.1" 200 -
+2025-08-19 23:37:54,567 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:37:54,679 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:54,682 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X2Sn HTTP/1.1" 200 -
+2025-08-19 23:37:54,712 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:54,727 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:54,733 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:54] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:55,031 - __main__ - INFO - Client connected: rTu1XiE8yXoCVVkuAAAE
+2025-08-19 23:37:55,034 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:55] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X2S-&sid=Qu8TsbZDbh1qUBIkAAAD HTTP/1.1" 200 -
+2025-08-19 23:37:55,036 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:55] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X2S_&sid=Qu8TsbZDbh1qUBIkAAAD HTTP/1.1" 200 -
+2025-08-19 23:37:56,425 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 23:37:56,426 - network_capture - INFO - Network capture engine initialized
+2025-08-19 23:37:56,428 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 23:37:56,428 - __main__ - INFO - Network monitoring started
+2025-08-19 23:37:56,428 - network_capture - INFO - Starting network simulation mode
+2025-08-19 23:37:56,430 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:56] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 23:37:57,508 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:57,524 - __main__ - INFO - Client disconnected: rTu1XiE8yXoCVVkuAAAE
+2025-08-19 23:37:57,525 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /socket.io/?EIO=4&transport=websocket&sid=Qu8TsbZDbh1qUBIkAAAD HTTP/1.1" 200 -
+2025-08-19 23:37:57,548 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:37:57,601 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:57,603 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3AR HTTP/1.1" 200 -
+2025-08-19 23:37:57,640 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:57,648 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:57,656 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:57,942 - __main__ - INFO - Client connected: Wh5q9c-fXIfWTsK6AAAG
+2025-08-19 23:37:57,944 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X3Ag&sid=ODx7BkKUGvl9k8eHAAAF HTTP/1.1" 200 -
+2025-08-19 23:37:57,945 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:57] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3Ah&sid=ODx7BkKUGvl9k8eHAAAF HTTP/1.1" 200 -
+2025-08-19 23:37:58,214 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:58,234 - __main__ - INFO - Client disconnected: Wh5q9c-fXIfWTsK6AAAG
+2025-08-19 23:37:58,235 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /socket.io/?EIO=4&transport=websocket&sid=ODx7BkKUGvl9k8eHAAAF HTTP/1.1" 200 -
+2025-08-19 23:37:58,263 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:37:58,320 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:58,327 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3Lf HTTP/1.1" 200 -
+2025-08-19 23:37:58,340 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:58,367 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:58,375 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:58,675 - __main__ - INFO - Client connected: 2RiEfXgw9AtJEZ4CAAAI
+2025-08-19 23:37:58,677 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X3MM&sid=wDwUPeFtTGdb5bTbAAAH HTTP/1.1" 200 -
+2025-08-19 23:37:58,679 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3MN&sid=wDwUPeFtTGdb5bTbAAAH HTTP/1.1" 200 -
+2025-08-19 23:37:58,905 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:58,924 - __main__ - INFO - Client disconnected: 2RiEfXgw9AtJEZ4CAAAI
+2025-08-19 23:37:58,925 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "GET /socket.io/?EIO=4&transport=websocket&sid=wDwUPeFtTGdb5bTbAAAH HTTP/1.1" 200 -
+2025-08-19 23:37:58,948 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:58] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:37:59,006 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:59,011 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3WM HTTP/1.1" 200 -
+2025-08-19 23:37:59,039 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:59,061 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:59,067 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:59,346 - __main__ - INFO - Client connected: -RVMx020HsWWjE0zAAAK
+2025-08-19 23:37:59,349 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X3W-&sid=SWBqoTfy2yW56MkpAAAJ HTTP/1.1" 200 -
+2025-08-19 23:37:59,351 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3W_&sid=SWBqoTfy2yW56MkpAAAJ HTTP/1.1" 200 -
+2025-08-19 23:37:59,507 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET / HTTP/1.1" 200 -
+2025-08-19 23:37:59,531 - __main__ - INFO - Client disconnected: -RVMx020HsWWjE0zAAAK
+2025-08-19 23:37:59,532 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /socket.io/?EIO=4&transport=websocket&sid=SWBqoTfy2yW56MkpAAAJ HTTP/1.1" 200 -
+2025-08-19 23:37:59,556 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:37:59,606 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:37:59,611 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3fl HTTP/1.1" 200 -
+2025-08-19 23:37:59,620 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:37:59,647 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:37:59,660 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:37:59,957 - __main__ - INFO - Client connected: RbdXTSe78q3DtypRAAAM
+2025-08-19 23:37:59,960 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X3gI&sid=WXQG894YnhujzJauAAAL HTTP/1.1" 200 -
+2025-08-19 23:37:59,960 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:37:59] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3gI.0&sid=WXQG894YnhujzJauAAAL HTTP/1.1" 200 -
+2025-08-19 23:38:00,159 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:00,178 - __main__ - INFO - Client disconnected: RbdXTSe78q3DtypRAAAM
+2025-08-19 23:38:00,178 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /socket.io/?EIO=4&transport=websocket&sid=WXQG894YnhujzJauAAAL HTTP/1.1" 200 -
+2025-08-19 23:38:00,204 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:00,261 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:00,276 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3p- HTTP/1.1" 200 -
+2025-08-19 23:38:00,289 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:00,329 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:00,334 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:00,637 - __main__ - INFO - Client connected: od5eB2uBNFhLQm0mAAAO
+2025-08-19 23:38:00,639 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X3r1&sid=22B0ni8yX9VQwul1AAAN HTTP/1.1" 200 -
+2025-08-19 23:38:00,641 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3r2&sid=22B0ni8yX9VQwul1AAAN HTTP/1.1" 200 -
+2025-08-19 23:38:00,727 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:00,743 - __main__ - INFO - Client disconnected: od5eB2uBNFhLQm0mAAAO
+2025-08-19 23:38:00,744 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /socket.io/?EIO=4&transport=websocket&sid=22B0ni8yX9VQwul1AAAN HTTP/1.1" 200 -
+2025-08-19 23:38:00,766 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:00,820 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:00,832 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:00,859 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:00,865 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:00,903 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3yi HTTP/1.1" 200 -
+2025-08-19 23:38:01,137 - __main__ - INFO - Client connected: xsRRhVshtLK8kVYUAAAQ
+2025-08-19 23:38:01,139 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X3-B&sid=b5cfQFzGozUe6BiGAAAP HTTP/1.1" 200 -
+2025-08-19 23:38:01,216 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X3-C&sid=b5cfQFzGozUe6BiGAAAP HTTP/1.1" 200 -
+2025-08-19 23:38:01,225 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X436&sid=b5cfQFzGozUe6BiGAAAP HTTP/1.1" 200 -
+2025-08-19 23:38:01,348 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:01,364 - __main__ - INFO - Client disconnected: xsRRhVshtLK8kVYUAAAQ
+2025-08-19 23:38:01,365 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /socket.io/?EIO=4&transport=websocket&sid=b5cfQFzGozUe6BiGAAAP HTTP/1.1" 200 -
+2025-08-19 23:38:01,391 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:01,442 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:01,482 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:01,491 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:01,509 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:01,763 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X46Q HTTP/1.1" 200 -
+2025-08-19 23:38:01,931 - network_capture - WARNING - Threat detected: DDoS from 192.168.1.102 - CRITICAL
+2025-08-19 23:38:01,978 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:01] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:02,022 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:02,067 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:02,072 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4GD HTTP/1.1" 200 -
+2025-08-19 23:38:02,100 - __main__ - INFO - Client connected: NthfdCv1S3q2007HAAAT
+2025-08-19 23:38:02,101 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X4GU&sid=0fnccPUaiy9QZOW0AAAS HTTP/1.1" 200 -
+2025-08-19 23:38:02,102 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4GV&sid=0fnccPUaiy9QZOW0AAAS HTTP/1.1" 200 -
+2025-08-19 23:38:02,107 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:02,130 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:02,137 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:02,434 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4HA&sid=0fnccPUaiy9QZOW0AAAS HTTP/1.1" 200 -
+2025-08-19 23:38:02,458 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:02,474 - __main__ - INFO - Client disconnected: NthfdCv1S3q2007HAAAT
+2025-08-19 23:38:02,475 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /socket.io/?EIO=4&transport=websocket&sid=0fnccPUaiy9QZOW0AAAS HTTP/1.1" 200 -
+2025-08-19 23:38:02,497 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:02,549 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:02,587 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:02,597 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:02,605 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:02,700 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4Nl HTTP/1.1" 200 -
+2025-08-19 23:38:02,857 - __main__ - INFO - Client connected: bFBlOL1r5cyfpXArAAAV
+2025-08-19 23:38:02,858 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X4QG&sid=L3v9Zuvfw2Ks4HBqAAAU HTTP/1.1" 200 -
+2025-08-19 23:38:02,995 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:02] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:03,013 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4QH&sid=L3v9Zuvfw2Ks4HBqAAAU HTTP/1.1" 200 -
+2025-08-19 23:38:03,016 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /socket.io/?EIO=4&transport=websocket&sid=L3v9Zuvfw2Ks4HBqAAAU HTTP/1.1" 200 -
+2025-08-19 23:38:03,038 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:03,105 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:03,105 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4WI HTTP/1.1" 200 -
+2025-08-19 23:38:03,139 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:03,148 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:03,157 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:03,453 - __main__ - INFO - Client connected: aZypFRIuqlCs6EhLAAAX
+2025-08-19 23:38:03,456 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X4Wv&sid=NKaGVW8Tf1lKU8t_AAAW HTTP/1.1" 200 -
+2025-08-19 23:38:03,458 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4Wv.0&sid=NKaGVW8Tf1lKU8t_AAAW HTTP/1.1" 200 -
+2025-08-19 23:38:03,542 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:03,555 - __main__ - INFO - Client disconnected: aZypFRIuqlCs6EhLAAAX
+2025-08-19 23:38:03,556 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /socket.io/?EIO=4&transport=websocket&sid=NKaGVW8Tf1lKU8t_AAAW HTTP/1.1" 200 -
+2025-08-19 23:38:03,579 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:03,628 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:03,646 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:03,670 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:03,680 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:03,701 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4ec HTTP/1.1" 200 -
+2025-08-19 23:38:03,951 - __main__ - INFO - Client connected: HCmLhhEWZWlxWIRWAAAZ
+2025-08-19 23:38:03,953 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:03] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X4fv&sid=cc5OrkxxTjsaWg2UAAAY HTTP/1.1" 200 -
+2025-08-19 23:38:04,013 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4fw&sid=cc5OrkxxTjsaWg2UAAAY HTTP/1.1" 200 -
+2025-08-19 23:38:04,023 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4kp&sid=cc5OrkxxTjsaWg2UAAAY HTTP/1.1" 200 -
+2025-08-19 23:38:04,175 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:04,195 - __main__ - INFO - Client disconnected: HCmLhhEWZWlxWIRWAAAZ
+2025-08-19 23:38:04,196 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /socket.io/?EIO=4&transport=websocket&sid=cc5OrkxxTjsaWg2UAAAY HTTP/1.1" 200 -
+2025-08-19 23:38:04,222 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:04,275 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:04,326 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:04,336 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:04,344 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:04,594 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4oi HTTP/1.1" 200 -
+2025-08-19 23:38:04,692 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:04,735 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:04,787 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:04,802 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:04,843 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4wh HTTP/1.1" 200 -
+2025-08-19 23:38:04,846 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:04,855 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:04,906 - __main__ - INFO - Client connected: EmROz8Jkj0ws0Cu9AAAc
+2025-08-19 23:38:04,907 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X4xm&sid=lPKqFoQsglLHBGwmAAAb HTTP/1.1" 200 -
+2025-08-19 23:38:04,908 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:04] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4xn&sid=lPKqFoQsglLHBGwmAAAb HTTP/1.1" 200 -
+2025-08-19 23:38:05,148 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:05,165 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /socket.io/?EIO=4&transport=websocket&sid=lPKqFoQsglLHBGwmAAAb HTTP/1.1" 200 -
+2025-08-19 23:38:05,192 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:05,242 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:05,247 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X51q HTTP/1.1" 200 -
+2025-08-19 23:38:05,255 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:05,279 - __main__ - INFO - Client connected: rPh2fCj9o411PfgYAAAe
+2025-08-19 23:38:05,280 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X52S&sid=PoLKIdQ4qB7HfySyAAAd HTTP/1.1" 200 -
+2025-08-19 23:38:05,284 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X52T&sid=PoLKIdQ4qB7HfySyAAAd HTTP/1.1" 200 -
+2025-08-19 23:38:05,292 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:05,298 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:05,495 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:05,539 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:05,593 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:05,608 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X57J HTTP/1.1" 200 -
+2025-08-19 23:38:05,646 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:05,661 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:05,667 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:05,948 - __main__ - INFO - Client connected: ErR2vj69r5D5oe6VAAAg
+2025-08-19 23:38:05,950 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X587&sid=2CGm5yHr-446YLQAAAAf HTTP/1.1" 200 -
+2025-08-19 23:38:05,954 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:05] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X588&sid=2CGm5yHr-446YLQAAAAf HTTP/1.1" 200 -
+2025-08-19 23:38:06,900 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:06] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:06,917 - __main__ - INFO - Client disconnected: ErR2vj69r5D5oe6VAAAg
+2025-08-19 23:38:06,918 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:06] "GET /socket.io/?EIO=4&transport=websocket&sid=2CGm5yHr-446YLQAAAAf HTTP/1.1" 200 -
+2025-08-19 23:38:06,941 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:06] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:06,993 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:06] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:06,995 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5TB HTTP/1.1" 200 -
+2025-08-19 23:38:07,009 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:07,045 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:07,051 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:07,180 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:07,223 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:07,275 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:07,294 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:07,320 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:07,327 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:07,330 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5XZ HTTP/1.1" 200 -
+2025-08-19 23:38:07,337 - __main__ - INFO - Client connected: tNYlg_yU5DT9hFJ6AAAj
+2025-08-19 23:38:07,338 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X5Ya&sid=SBhBMyjMDJBMOPI9AAAi HTTP/1.1" 200 -
+2025-08-19 23:38:07,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:07,462 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:07,515 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:07,552 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:07,562 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:07,568 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:07,595 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5bK HTTP/1.1" 200 -
+2025-08-19 23:38:07,614 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:07,661 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:07,703 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:07,707 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5eG HTTP/1.1" 200 -
+2025-08-19 23:38:07,728 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:07,742 - __main__ - INFO - Client connected: Loc1KCBvEj5g8d4xAAAm
+2025-08-19 23:38:07,743 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X5eV&sid=8l_lYmWrlJo6S8jIAAAl HTTP/1.1" 200 -
+2025-08-19 23:38:07,751 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:07,761 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:07,829 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5eW&sid=8l_lYmWrlJo6S8jIAAAl HTTP/1.1" 200 -
+2025-08-19 23:38:07,858 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:07,905 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:07,959 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:07,962 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5iI HTTP/1.1" 200 -
+2025-08-19 23:38:07,989 - __main__ - INFO - Client connected: Ooq7soVJwlutT1HoAAAo
+2025-08-19 23:38:07,990 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X5iU&sid=C7E1cQKdx7HhB9WBAAAn HTTP/1.1" 200 -
+2025-08-19 23:38:07,995 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:07] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:08,007 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:08,013 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:08,050 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5iV&sid=C7E1cQKdx7HhB9WBAAAn HTTP/1.1" 200 -
+2025-08-19 23:38:08,081 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:08,125 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:08,198 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:08,199 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5ly HTTP/1.1" 200 -
+2025-08-19 23:38:08,231 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:08,250 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:08,266 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:08,283 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:08,296 - __main__ - INFO - Client connected: DAdNSoT9zKTgMoRpAAAq
+2025-08-19 23:38:08,297 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X5mP&sid=548FrCMs3qkb5CT-AAAp HTTP/1.1" 200 -
+2025-08-19 23:38:08,344 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:08,396 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5p3 HTTP/1.1" 200 -
+2025-08-19 23:38:08,398 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:08,440 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:08,457 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:08,483 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:08,491 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:08,551 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:08,615 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:08,618 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5sS HTTP/1.1" 200 -
+2025-08-19 23:38:08,657 - __main__ - INFO - Client connected: ZJEl1faXZaIbhKEWAAAt
+2025-08-19 23:38:08,658 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X5t9&sid=y0-lRxukaTpv7srIAAAs HTTP/1.1" 200 -
+2025-08-19 23:38:08,665 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:08,684 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:08,705 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:08,765 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:08,830 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:08,838 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5vs HTTP/1.1" 200 -
+2025-08-19 23:38:08,891 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:08,893 - __main__ - INFO - Client connected: ofznQfSJPgqF52fwAAAv
+2025-08-19 23:38:08,896 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X5wm&sid=MGWgi1MbpiRIggmpAAAu HTTP/1.1" 200 -
+2025-08-19 23:38:08,915 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:08,929 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:08,971 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5wo&sid=MGWgi1MbpiRIggmpAAAu HTTP/1.1" 200 -
+2025-08-19 23:38:09,211 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:09] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X5yG&sid=MGWgi1MbpiRIggmpAAAu HTTP/1.1" 200 -
+2025-08-19 23:38:09,502 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 10.0.0.50 - HIGH
+2025-08-19 23:38:09,983 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:09] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:10,007 - __main__ - INFO - Client disconnected: ofznQfSJPgqF52fwAAAv
+2025-08-19 23:38:10,008 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /socket.io/?EIO=4&transport=websocket&sid=MGWgi1MbpiRIggmpAAAu HTTP/1.1" 200 -
+2025-08-19 23:38:10,047 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:10,092 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:10,100 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6Da HTTP/1.1" 200 -
+2025-08-19 23:38:10,120 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:10,171 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:10,191 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:10,457 - __main__ - INFO - Client connected: rwqebHA3mDRZVqr2AAAx
+2025-08-19 23:38:10,460 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X6E0&sid=DRfKkwQUcXMlSCnOAAAw HTTP/1.1" 200 -
+2025-08-19 23:38:10,462 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6E1&sid=DRfKkwQUcXMlSCnOAAAw HTTP/1.1" 200 -
+2025-08-19 23:38:10,504 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:10,525 - __main__ - INFO - Client disconnected: rwqebHA3mDRZVqr2AAAx
+2025-08-19 23:38:10,526 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /socket.io/?EIO=4&transport=websocket&sid=DRfKkwQUcXMlSCnOAAAw HTTP/1.1" 200 -
+2025-08-19 23:38:10,550 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:10,612 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:10,648 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:10,666 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:10,678 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:10,721 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6Lk HTTP/1.1" 200 -
+2025-08-19 23:38:10,918 - __main__ - INFO - Client connected: jLAjzmtouBK_5H-iAAAz
+2025-08-19 23:38:10,922 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:10,923 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X6Nc&sid=gUN6NE45F2ovJ0BEAAAy HTTP/1.1" 200 -
+2025-08-19 23:38:10,974 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:10] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:11,038 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:11,046 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6SJ HTTP/1.1" 200 -
+2025-08-19 23:38:11,088 - __main__ - INFO - Client connected: GflvXS17NX5jw-SgAAA1
+2025-08-19 23:38:11,089 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X6TB&sid=1zamhFhHOCzWn2mEAAA0 HTTP/1.1" 200 -
+2025-08-19 23:38:11,094 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:11,110 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:11,116 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:11,216 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET / HTTP/1.1" 200 -
+2025-08-19 23:38:11,267 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:38:11,332 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:38:11,381 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:38:11,395 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6Ww HTTP/1.1" 200 -
+2025-08-19 23:38:11,399 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:38:11,417 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:38:11,643 - __main__ - INFO - Client connected: d1qdVzHUFuvE5TLsAAA3
+2025-08-19 23:38:11,644 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "POST /socket.io/?EIO=4&transport=polling&t=PZ3X6YA&sid=6eugljTQG3KwwNbWAAA2 HTTP/1.1" 200 -
+2025-08-19 23:38:11,725 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6YC&sid=6eugljTQG3KwwNbWAAA2 HTTP/1.1" 200 -
+2025-08-19 23:38:11,735 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:11] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X6dJ&sid=6eugljTQG3KwwNbWAAA2 HTTP/1.1" 200 -
+2025-08-19 23:38:17,119 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.100 - HIGH
+2025-08-19 23:38:29,843 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:38:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ3X4ym&sid=lPKqFoQsglLHBGwmAAAb HTTP/1.1" 200 -
+2025-08-19 23:38:43,443 - network_capture - WARNING - Threat detected: PORT_SCAN from 10.0.0.50 - HIGH
+2025-08-19 23:38:43,626 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.101 - HIGH
+2025-08-19 23:38:47,037 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:38:48,748 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 10.0.0.51 - HIGH
+2025-08-19 23:38:50,576 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:38:53,414 - __main__ - INFO - Client disconnected: bFBlOL1r5cyfpXArAAAV
+2025-08-19 23:38:55,787 - __main__ - INFO - Client disconnected: EmROz8Jkj0ws0Cu9AAAc
+2025-08-19 23:38:56,974 - __main__ - INFO - Client disconnected: rPh2fCj9o411PfgYAAAe
+2025-08-19 23:38:59,345 - __main__ - INFO - Client disconnected: tNYlg_yU5DT9hFJ6AAAj
+2025-08-19 23:39:01,718 - __main__ - INFO - Client disconnected: Loc1KCBvEj5g8d4xAAAm
+2025-08-19 23:39:02,904 - __main__ - INFO - Client disconnected: Ooq7soVJwlutT1HoAAAo
+2025-08-19 23:39:04,084 - __main__ - INFO - Client disconnected: DAdNSoT9zKTgMoRpAAAq
+2025-08-19 23:39:06,463 - __main__ - INFO - Client disconnected: ZJEl1faXZaIbhKEWAAAt
+2025-08-19 23:39:07,650 - __main__ - INFO - Client disconnected: jLAjzmtouBK_5H-iAAAz
+2025-08-19 23:39:08,832 - __main__ - INFO - Client disconnected: GflvXS17NX5jw-SgAAA1
+2025-08-19 23:39:47,038 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:39:50,578 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:41:03,022 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:41:03,023 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:41:03,024 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:41:03,025 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:41:03,025 - database_manager - INFO - Database maintenance started
+2025-08-19 23:41:03,032 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:41:03,032 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:41:03,033 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:41:03,061 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:41:03,062 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:41:04,511 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.100:5000
+2025-08-19 23:41:04,512 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 23:41:04,512 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 23:41:06,412 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:41:06,413 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 23:41:06,414 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:41:06,415 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 23:41:06,415 - database_manager - INFO - Database maintenance started
+2025-08-19 23:41:06,423 - reporting_system - INFO - Report scheduler started
+2025-08-19 23:41:06,424 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 23:41:06,425 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 23:41:06,467 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:41:06,467 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 23:41:06,470 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 23:41:06,477 - werkzeug - INFO -  * Debugger PIN: 409-796-111
+2025-08-19 23:41:06,624 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:06] "GET / HTTP/1.1" 200 -
+2025-08-19 23:41:06,750 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:06] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-08-19 23:41:09,371 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:41:09,402 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 23:41:09,405 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:41:09,432 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:41:09,456 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:41:09,692 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Xn-h HTTP/1.1" 200 -
+2025-08-19 23:41:09,957 - __main__ - INFO - Client connected: k8j2GhX1ugx-rzm4AAAB
+2025-08-19 23:41:09,958 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:09] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Xo46&sid=1DehRQqYDhPBzkDBAAAA HTTP/1.1" 200 -
+2025-08-19 23:41:10,017 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Xo47&sid=1DehRQqYDhPBzkDBAAAA HTTP/1.1" 200 -
+2025-08-19 23:41:10,024 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Xo95&sid=1DehRQqYDhPBzkDBAAAA HTTP/1.1" 200 -
+2025-08-19 23:41:11,958 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:11] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:41:11,962 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:11] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:41:16,297 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 23:41:16,297 - network_capture - INFO - Network capture engine initialized
+2025-08-19 23:41:16,298 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 23:41:16,298 - __main__ - INFO - Network monitoring started
+2025-08-19 23:41:16,299 - network_capture - INFO - Starting network simulation mode
+2025-08-19 23:41:16,300 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:16] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 23:41:19,738 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:19] "GET /api/reports/templates HTTP/1.1" 200 -
+2025-08-19 23:41:19,741 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:19] "GET /api/logs HTTP/1.1" 200 -
+2025-08-19 23:41:24,287 - reporting_system - ERROR - Report data generation error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 23:41:24,291 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:24] "POST /api/reports/export HTTP/1.1" 200 -
+2025-08-19 23:41:36,962 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:36] "GET / HTTP/1.1" 200 -
+2025-08-19 23:41:36,978 - __main__ - INFO - Client disconnected: k8j2GhX1ugx-rzm4AAAB
+2025-08-19 23:41:36,980 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:36] "GET /socket.io/?EIO=4&transport=websocket&sid=1DehRQqYDhPBzkDBAAAA HTTP/1.1" 200 -
+2025-08-19 23:41:37,017 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 23:41:37,107 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 23:41:37,152 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 23:41:37,164 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 23:41:37,186 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 23:41:37,423 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ3XumF HTTP/1.1" 200 -
+2025-08-19 23:41:37,690 - __main__ - INFO - Client connected: nfwNK_z-qIeGZEQhAAAD
+2025-08-19 23:41:37,691 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "POST /socket.io/?EIO=4&transport=polling&t=PZ3XurI&sid=4uj9ih2qEKkyEGboAAAC HTTP/1.1" 200 -
+2025-08-19 23:41:37,737 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ3XurL&sid=4uj9ih2qEKkyEGboAAAC HTTP/1.1" 200 -
+2025-08-19 23:41:37,746 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 23:41:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ3XuwE&sid=4uj9ih2qEKkyEGboAAAC HTTP/1.1" 200 -

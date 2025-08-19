@@ -27,6 +27,7 @@ except ImportError:
 from app import db, NetworkEvent, SystemStats, broadcast_event, broadcast_stats
 from config import Config
 from threat_detection import analyze_advanced_threats
+from alert_manager import get_alert_manager
 
 logger = logging.getLogger(__name__)
 
@@ -143,6 +144,12 @@ class NetworkCapture:
             
             # Store in database and broadcast
             self._store_and_broadcast_event(event)
+            
+            # --- ALERT GENERATION INTEGRATION ---
+            if threat_analysis['threat_level'] in ['HIGH', 'CRITICAL']:
+                alert_mgr = get_alert_manager()
+                if alert_mgr:
+                    alert_mgr.generate_alert(packet_info, threat_analysis)
             
             # Update traffic statistics
             self._update_traffic_stats(packet_info)

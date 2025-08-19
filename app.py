@@ -25,6 +25,30 @@ app.config['SECRET_KEY'] = 'your-secret-key-change-in-production'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ids_database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+# --- LOG FILE API ENDPOINTS ---
+import base64
+from flask import send_from_directory, abort
+
+@app.route('/api/logs')
+def list_logs():
+    log_dir = os.path.join(os.getcwd(), 'logs')
+    try:
+        files = [f for f in os.listdir(log_dir) if os.path.isfile(os.path.join(log_dir, f))]
+        return jsonify({'files': files})
+    except Exception as e:
+        return jsonify({'files': [], 'error': str(e)}), 500
+
+@app.route('/api/logs/download')
+def download_log():
+    log_dir = os.path.join(os.getcwd(), 'logs')
+    filename = request.args.get('file')
+    if not filename or '/' in filename or '\\' in filename:
+        abort(400)
+    file_path = os.path.join(log_dir, filename)
+    if not os.path.isfile(file_path):
+        abort(404)
+    return send_from_directory(log_dir, filename, as_attachment=True)
+
 # Initialize extensions
 db = SQLAlchemy(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
@@ -466,10 +490,16 @@ def export_report():
         # Return appropriate response based on format
         format_type = config['format']
         if format_type == 'pdf':
+            # Encode PDF bytes as base64 for safe transfer
+            pdf_bytes = report_data['data']
+            if isinstance(pdf_bytes, bytes):
+                b64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+            else:
+                b64_pdf = base64.b64encode(pdf_bytes.encode('latin1')).decode('utf-8')
             return jsonify({
                 'status': 'success',
                 'format': format_type,
-                'data': report_data['data'].decode('latin1') if isinstance(report_data['data'], bytes) else report_data['data'],
+                'data': b64_pdf,
                 'filename': f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
             })
         else:
@@ -479,7 +509,6 @@ def export_report():
                 'data': report_data['data'],
                 'filename': f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.{format_type}"
             })
-    
     return jsonify({'status': 'error', 'message': 'Failed to export report'}), 400
 
 @app.route('/api/reports/compliance')

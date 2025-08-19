@@ -66,17 +66,3 @@ requirements.txt           # Python dependencies
 - By default, the app runs in simulation mode if scapy is not available.
 - For production, use a production-ready WSGI server (not Flask's built-in server).
 
-## INTRUSION
-
-├── alert_manager.py
-├── app.py
-├── config.py
-├── database_manager.py
-├── logging_manager.py
-├── network_capture.py
-├── reporting_manager.py
-├── requirements.txt
-├── static/
-│   └── dashboard.js
-├── templates/
-│   └── dashboard.html

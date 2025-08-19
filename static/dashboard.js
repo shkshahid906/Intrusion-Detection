@@ -34,6 +34,29 @@ class AdvancedIDSDashboard {
   }
 
   initializeEventListeners() {
+    // Reports & Logs tab: fetch templates and log files when tab is shown
+    document.querySelector('[data-tab="reports"]').addEventListener('click', () => {
+      this.loadReportTemplates();
+      this.loadLogFiles();
+    });
+
+    // Handle report form submission
+    document.addEventListener('submit', async (e) => {
+      if (e.target && e.target.id === 'report-form') {
+        e.preventDefault();
+        const template = document.getElementById('report-template').value;
+        const period = document.getElementById('report-period').value;
+        const format = document.getElementById('report-format').value;
+        await this.generateAndDownloadReport({ template, period, format });
+      }
+    });
+    // Handle log file download
+    document.getElementById('log-files-list').addEventListener('click', (e) => {
+      if (e.target && e.target.dataset && e.target.dataset.logfile) {
+        this.downloadLogFile(e.target.dataset.logfile);
+      }
+    });
+
     // Monitoring controls
     document.getElementById("toggle-monitoring").addEventListener("click", () => {
       this.toggleMonitoring()
@@ -74,6 +97,121 @@ class AdvancedIDSDashboard {
     document.getElementById("topology-zoom-reset").addEventListener("click", () => {
       this.resetTopologyZoom()
     })
+  }
+
+  // --- Reports & Logs Methods ---
+  async loadReportTemplates() {
+    try {
+      const res = await fetch('/api/reports/templates');
+      const data = await res.json();
+      const select = document.getElementById('report-template');
+      select.innerHTML = '';
+      if (data.templates) {
+        Object.entries(data.templates).forEach(([key, val]) => {
+          const opt = document.createElement('option');
+          opt.value = key;
+          opt.textContent = val.name;
+          select.appendChild(opt);
+        });
+      }
+    } catch (err) {
+      console.error('Failed to load report templates', err);
+    }
+  }
+
+  async generateAndDownloadReport({ template, period, format }) {
+    try {
+      const res = await fetch('/api/reports/export', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ template, period, format })
+      });
+      let data;
+      try {
+        data = await res.json();
+      } catch (jsonErr) {
+        alert('Failed to generate report: Server error (not JSON)');
+        return;
+      }
+      if (data.status === 'success' && data.data) {
+        let blob, mime;
+        if (format === 'pdf') {
+          // Defensive: check if data.data is valid base64
+          try {
+            const byteChars = atob(data.data);
+            const byteNumbers = new Array(byteChars.length);
+            for (let i = 0; i < byteChars.length; i++) {
+              byteNumbers[i] = byteChars.charCodeAt(i);
+            }
+            const byteArray = new Uint8Array(byteNumbers);
+            blob = new Blob([byteArray], { type: 'application/pdf' });
+            mime = 'application/pdf';
+          } catch (decodeErr) {
+            alert('Failed to decode PDF report (invalid base64).');
+            return;
+          }
+        } else if (format === 'csv') {
+          blob = new Blob([data.data], { type: 'text/csv' });
+          mime = 'text/csv';
+        } else {
+          blob = new Blob([JSON.stringify(data.data, null, 2)], { type: 'application/json' });
+          mime = 'application/json';
+        }
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = data.filename || `report.${format}`;
+        link.textContent = `Download ${data.filename || 'report'}`;
+        link.className = 'btn btn-secondary';
+        const container = document.getElementById('report-download-link');
+        container.innerHTML = '';
+        container.appendChild(link);
+      } else {
+        alert('Failed to generate report: ' + (data.message || 'Unknown error'));
+      }
+    } catch (err) {
+      alert('Failed to generate report.');
+      console.error(err);
+    }
+  }
+
+  async loadLogFiles() {
+    try {
+      const res = await fetch('/api/logs');
+      let data;
+      try {
+        data = await res.json();
+      } catch (jsonErr) {
+        // Not JSON, likely HTML error page
+        console.error('Failed to parse log files response as JSON', jsonErr);
+        document.getElementById('log-files-list').innerHTML = `<li style="color: #dc2626;">Failed to load log files (server error)</li>`;
+        return;
+      }
+      const list = document.getElementById('log-files-list');
+      list.innerHTML = '';
+      if (data.files && Array.isArray(data.files)) {
+        data.files.forEach((file) => {
+          const li = document.createElement('li');
+          li.innerHTML = `<button class="btn btn-secondary btn-small" data-logfile="${file}">Download ${file}</button>`;
+          list.appendChild(li);
+        });
+      } else {
+        list.innerHTML = `<li style="color: #dc2626;">No log files found</li>`;
+      }
+    } catch (err) {
+      document.getElementById('log-files-list').innerHTML = `<li style="color: #dc2626;">Failed to load log files (network error)</li>`;
+      console.error('Failed to load log files', err);
+    }
+  }
+
+  downloadLogFile(filename) {
+    const url = `/api/logs/download?file=${encodeURIComponent(filename)}`;
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   initializeSocketEvents() {
