@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureWatch IDS - Intrusion Detection System</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1e293b;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: #2a374b;
+            padding: 1rem 2rem;
+            border-bottom: 2px solid #475569;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header h1 {
+            color: #ec4899;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        .monitoring-controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #dc2626;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-indicator.active {
+            background: #34d399;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: #ec4899;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #db2777;
+        }
+        
+        .btn-secondary {
+            background: #475569;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #334155;
+        }
+        
+        .btn-danger {
+            background: #dc2626;
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: #b91c1c;
+        }
+        
+        .main-content {
+            padding: 2rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: #2a374b;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            border: 1px solid #475569;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #ec4899, #f59e0b);
+        }
+        
+        .stat-card h3 {
+            color: #ec4899;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        
+        .stat-label {
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+        
+        .stat-trend {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+        }
+        
+        .trend-up {
+            background: #dc2626;
+            color: white;
+        }
+        
+        .trend-down {
+            background: #34d399;
+            color: white;
+        }
+        
+        .threat-high { color: #dc2626; }
+        .threat-medium { color: #f59e0b; }
+        .threat-low { color: #34d399; }
+        
+        .tabs {
+            margin-top: 2rem;
+        }
+        
+        .tab-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .tab-button {
+            padding: 0.75rem 1.5rem;
+            background: #374151;
+            border: none;
+            border-radius: 0.375rem;
+            color: #94a3b8;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .tab-button.active {
+            background: #ec4899;
+            color: white;
+        }
+        
+        .tab-content {
+            background: #2a374b;
+            border-radius: 0.5rem;
+            border: 1px solid #475569;
+            padding: 1.5rem;
+            min-height: 500px;
+        }
+        
+        .event-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        
+        .event-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid #374151;
+            transition: background 0.2s;
+            border-radius: 0.375rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .event-item:hover {
+            background: #374151;
+        }
+        
+        .event-item.critical {
+            border-left: 4px solid #dc2626;
+        }
+        
+        .event-item.high {
+            border-left: 4px solid #f59e0b;
+        }
+        
+        .event-item.medium {
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .event-item.low {
+            border-left: 4px solid #34d399;
+        }
+        
+        .event-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .threat-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        
+        .threat-critical { background: #dc2626; }
+        .threat-high { background: #f59e0b; }
+        .threat-medium { background: #3b82f6; }
+        .threat-low { background: #34d399; }
+        
+        .event-details {
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+        
+        .event-meta {
+            text-align: right;
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+        
+        .event-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .btn-small {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            border-radius: 0.25rem;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .alert-banner {
+            background: #dc2626;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            font-weight: 600;
+            animation: slideDown 0.3s ease-out;
+            position: relative;
+        }
+        
+        .alert-banner .close-btn {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        
+        .chart-container {
+            height: 300px;
+            margin: 1rem 0;
+            background: #374151;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+        
+        .network-topology {
+            height: 400px;
+            background: #374151;
+            border-radius: 0.5rem;
+            position: relative;
+        }
+        
+        .topology-controls {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .filter-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .filter-group label {
+            font-size: 0.875rem;
+            color: #94a3b8;
+        }
+        
+        .filter-input {
+            padding: 0.5rem;
+            border: 1px solid #475569;
+            border-radius: 0.375rem;
+            background: #374151;
+            color: white;
+        }
+        
+        .threat-intelligence {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .intel-card {
+            background: #374151;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid #475569;
+        }
+        
+        .intel-card h4 {
+            color: #ec4899;
+            margin-bottom: 0.5rem;
+        }
+        
+        .intel-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .intel-list li {
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #475569;
+            font-size: 0.875rem;
+        }
+        
+        .intel-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .real-time-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #34d399;
+            border-radius: 50%;
+            animation: blink 1s infinite;
+            margin-right: 0.5rem;
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+        
+        .connection-status {
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            background: #374151;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            border: 1px solid #475569;
+            font-size: 0.875rem;
+            z-index: 1000;
+        }
+        
+        .connection-status.connected {
+            border-color: #34d399;
+            color: #34d399;
+        }
+        
+        .connection-status.disconnected {
+            border-color: #dc2626;
+            color: #dc2626;
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #475569;
+            border-radius: 50%;
+            border-top-color: #ec4899;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .notification-toast {
+            position: fixed;
+            top: 5rem;
+            right: 1rem;
+            background: #374151;
+            border: 1px solid #475569;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            max-width: 300px;
+            z-index: 1000;
+            animation: slideInRight 0.3s ease-out;
+        }
+        
+        .notification-toast.critical {
+            border-color: #dc2626;
+            background: #7f1d1d;
+        }
+        
+        .notification-toast.high {
+            border-color: #f59e0b;
+            background: #78350f;
+        }
+        
+        @keyframes slideInRight {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+        
+        .advanced-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .control-group label {
+            font-size: 0.875rem;
+            color: #94a3b8;
+        }
+        
+        .search-box {
+            position: relative;
+        }
+        
+        .search-box input {
+            padding: 0.5rem 2.5rem 0.5rem 1rem;
+            border: 1px solid #475569;
+            border-radius: 0.375rem;
+            background: #374151;
+            color: white;
+            width: 250px;
+        }
+        
+        .search-box .search-icon {
+            position: absolute;
+            right: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div id="alert-banner" class="alert-banner hidden">
+        <span id="alert-message"></span>
+        <button class="close-btn" onclick="closeAlertBanner()">&times;</button>
+    </div>
+    
+    <header class="header">
+        <h1>🛡️ SecureWatch IDS</h1>
+        <div class="monitoring-controls">
+            <div class="status-indicator" id="status-indicator"></div>
+            <span id="status-text">Monitoring Stopped</span>
+            <button id="toggle-monitoring" class="btn btn-primary">Start Monitoring</button>
+            <button id="emergency-stop" class="btn btn-danger hidden">Emergency Stop</button>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <!-- Real-time Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Events</h3>
+                <div class="stat-value" id="total-events">0</div>
+                <div class="stat-label">Last hour</div>
+                <div class="stat-trend trend-up hidden" id="events-trend">↑ 12%</div>
+            </div>
+            <div class="stat-card">
+                <h3>Threats Detected</h3>
+                <div class="stat-value " id="threats-detected">0</div>
+                <div class="stat-label">Requires attention</div>
+                <div class="stat-trend trend-up hidden" id="threats-trend">↑ 5%</div>
+            </div>
+            <div class="stat-card">
+                <h3>Active Connections</h3>
+                <div class="stat-value " id="active-connections">0</div>
+                <div class="stat-label">Currently connected</div>
+                <div class="stat-trend trend-down hidden" id="connections-trend">↓ 3%</div>
+            </div>
+            <div class="stat-card">
+                <h3>Blocked Connections</h3>
+                <div class="stat-value" id="blocked-connections">0</div>
+                <div class="stat-label">Automatically blocked</div>
+                <div class="stat-trend trend-up hidden" id="blocked-trend">↑ 8%</div>
+            </div>
+        </div>
+        
+        <!-- System Performance -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>CPU Usage</h3>
+                <div class="stat-value" id="cpu-usage">0%</div>
+                <div style="width: 100%; background: #374151; height: 8px; border-radius: 4px; margin-top: 0.5rem;">
+                    <div id="cpu-bar" style="height: 100%; background: #3b82f6; border-radius: 4px; width: 0%; transition: width 0.3s;"></div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <h3>Memory Usage</h3>
+                <div class="stat-value" id="memory-usage">0%</div>
+                <div style="width: 100%; background: #374151; height: 8px; border-radius: 4px; margin-top: 0.5rem;">
+                    <div id="memory-bar" style="height: 100%; background: #f59e0b; border-radius: 4px; width: 0%; transition: width 0.3s;"></div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <h3>Network Throughput</h3>
+                <div class="stat-value" id="network-throughput">0 Mbps</div>
+                <div style="width: 100%; background: #374151; height: 8px; border-radius: 4px; margin-top: 0.5rem;">
+                    <div id="network-bar" style="height: 100%; background: #34d399; border-radius: 4px; width: 0%; transition: width 0.3s;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Threat Intelligence Summary -->
+        <div class="threat-intelligence">
+            <div class="intel-card">
+                <h4><span class="real-time-indicator"></span>Active Threats</h4>
+                <ul class="intel-list" id="active-threats-list">
+                    <li>No active threats detected</li>
+                </ul>
+            </div>
+            <div class="intel-card">
+                <h4>Suspicious IPs</h4>
+                <ul class="intel-list" id="suspicious-ips-list">
+                    <li>No suspicious IPs identified</li>
+                </ul>
+            </div>
+            <div class="intel-card">
+                <h4>Attack Patterns</h4>
+                <ul class="intel-list" id="attack-patterns-list">
+                    <li>No attack patterns detected</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="events">
+                    <span>📊</span> Real-time Events
+                </button>
+                <button class="tab-button" data-tab="analytics">
+                    <span>📈</span> Traffic Analytics
+                </button>
+                <button class="tab-button" data-tab="topology">
+                    <span>🌐</span> Network Topology
+                </button>
+                <button class="tab-button" data-tab="alerts">
+                    <span>🚨</span> Alert Management
+                </button>
+                <button class="tab-button" data-tab="intelligence">
+                    <span>🧠</span> Threat Intelligence
+                </button>
+                <button class="tab-button" data-tab="reports">
+                    <span>📋</span> Reports & Logs
+                </button>
+            </div>
+            
+            <div id="events-tab" class="tab-content">
+                <div class="advanced-controls">
+                    <div class="control-group">
+                        <label>Search Events</label>
+                        <div class="search-box">
+                            <input type="text" id="event-search" placeholder="Search by IP, protocol, or event type...">
+                            <span class="search-icon">🔍</span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label>Filter by Threat Level</label>
+                        <select id="threat-filter" class="filter-input">
+                            <option value="">All Levels</option>
+                            <option value="CRITICAL">Critical</option>
+                            <option value="HIGH">High</option>
+                            <option value="MEDIUM">Medium</option>
+                            <option value="LOW">Low</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>Auto-refresh</label>
+                        <button id="auto-refresh-toggle" class="btn btn-secondary">Enable</button>
+                    </div>
+                </div>
+                
+                <h3 style="margin-bottom: 1rem; color: #ec4899;">
+                    <span class="real-time-indicator"></span>Network Events
+                    <span id="event-count" style="font-size: 0.875rem; color: #94a3b8; margin-left: 1rem;">(0 events)</span>
+                </h3>
+                <div id="events-list" class="event-list">
+                    <div style="text-align: center; color: #94a3b8; padding: 2rem;">
+                        <div class="loading-spinner"></div>
+                        <p style="margin-top: 1rem;">Loading events...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="analytics-tab" class="tab-content hidden">
+                <h3 style="margin-bottom: 1rem; color: #ec4899;">Traffic Analytics</h3>
+                <div class="chart-container" id="protocol-chart"></div>
+                <div class="chart-container" id="traffic-timeline"></div>
+                <div class="chart-container" id="threat-heatmap"></div>
+            </div>
+            
+            <div id="topology-tab" class="tab-content hidden">
+                <h3 style="margin-bottom: 1rem; color: #ec4899;">Network Topology</h3>
+                <div class="network-topology" id="network-topology">
+                    <div class="topology-controls">
+                        <button class="btn btn-secondary btn-small" id="topology-refresh">Refresh</button>
+                        <button class="btn btn-secondary btn-small" id="topology-zoom-reset">Reset Zoom</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="alerts-tab" class="tab-content hidden">
+                <h3 style="margin-bottom: 1rem; color: #ec4899;">Alert Management</h3>
+                <div id="alerts-list">
+                    <div style="text-align: center; color: #94a3b8; padding: 2rem;">
+                        No alerts generated yet.
+                    </div>
+                </div>
+            </div>
+            
+            <div id="intelligence-tab" class="tab-content hidden">
+                <h3 style="margin-bottom: 1rem; color: #ec4899;">Threat Intelligence</h3>
+                <div id="intelligence-dashboard">
+                    <div style="text-align: center; color: #94a3b8; padding: 2rem;">
+                        Loading threat intelligence data...
+                    </div>
+                </div>
+            </div>
+            
+            <div id="reports-tab" class="tab-content hidden">
+                <h3 style="margin-bottom: 1rem; color: #ec4899;">Reports & Logs</h3>
+                <div style="text-align: center; color: #94a3b8; padding: 2rem;">
+                    Reporting features will be available soon.
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div id="connection-status" class="connection-status disconnected">
+        <span class="loading-spinner"></span> Connecting...
+    </div>
+    
+    <script src="../static/dashboard.js"></script>
+</body>
+</html>
