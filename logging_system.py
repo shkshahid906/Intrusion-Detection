@@ -57,37 +57,37 @@ class IDSLogger:
         self.loggers['system'] = self._create_logger(
             'system',
             os.path.join(self.log_dir, 'system.log'),
-            logging.INFO
+            logging.WARNING
         )
-        
+
         # Security logger
         self.loggers['security'] = self._create_logger(
             'security',
             os.path.join(self.log_dir, 'security.log'),
-            logging.INFO
+            logging.WARNING
         )
-        
+
         # Network logger
         self.loggers['network'] = self._create_logger(
             'network',
             os.path.join(self.log_dir, 'network.log'),
-            logging.INFO
+            logging.WARNING
         )
-        
+
         # Alert logger
         self.loggers['alert'] = self._create_logger(
             'alert',
             os.path.join(self.log_dir, 'alerts.log'),
-            logging.INFO
+            logging.WARNING
         )
-        
+
         # Audit logger
         self.loggers['audit'] = self._create_logger(
             'audit',
             os.path.join(self.log_dir, 'audit.log'),
-            logging.INFO
+            logging.WARNING
         )
-        
+
         # Error logger
         self.loggers['error'] = self._create_logger(
             'error',

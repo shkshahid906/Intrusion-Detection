@@ -4,7 +4,7 @@ A professional Intrusion Detection System (IDS) with real-time network analysis,
 
 ## Features
 - Real-time network event monitoring and analytics
-- Live dashboard with Socket.IO updates (no page refresh needed)
+- Live dashboard with Socket.IO updates 
 - Alert escalation and management
 - Threat intelligence summary
 - Network topology visualization
