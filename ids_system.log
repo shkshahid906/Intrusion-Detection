@@ -14553,3 +14553,417 @@ with app.app_context(). See the documentation for more information.
 This typically means that you attempted to use functionality that needed
 the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
+2025-08-19 21:48:01,018 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 21:48:01,018 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 21:48:01,019 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 21:48:01,019 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 21:48:01,019 - database_manager - INFO - Database maintenance started
+2025-08-19 21:48:01,023 - reporting_system - INFO - Report scheduler started
+2025-08-19 21:48:01,023 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 21:48:01,023 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 21:48:01,039 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 21:48:01,040 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 21:48:02,425 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.100:5000
+2025-08-19 21:48:02,426 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 21:48:02,426 - werkzeug - INFO -  * Restarting with stat
+2025-08-19 21:48:03,320 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 21:48:03,320 - alert_manager - INFO - Alert escalation monitor started
+2025-08-19 21:48:03,321 - database_manager - ERROR - Index creation error: 'Engine' object has no attribute 'execute'
+2025-08-19 21:48:03,322 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 21:48:03,322 - database_manager - INFO - Database maintenance started
+2025-08-19 21:48:03,325 - reporting_system - INFO - Report scheduler started
+2025-08-19 21:48:03,326 - __main__ - INFO - Database, alert manager, logging system, and reporting system initialized
+2025-08-19 21:48:03,326 - __main__ - INFO - Starting SecureWatch IDS Flask Application
+2025-08-19 21:48:03,343 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 21:48:03,343 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 21:48:03,345 - werkzeug - WARNING -  * Debugger is active!
+2025-08-19 21:48:03,348 - werkzeug - INFO -  * Debugger PIN: 409-796-111
+2025-08-19 21:48:05,915 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:05] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:05,987 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:05] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-08-19 21:48:06,096 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:06,117 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 21:48:06,126 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:06,144 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:06,160 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:06,404 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ37vw7 HTTP/1.1" 200 -
+2025-08-19 21:48:06,670 - __main__ - INFO - Client connected: f742eVUlmwGGCG9SAAAB
+2025-08-19 21:48:06,670 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "POST /socket.io/?EIO=4&transport=polling&t=PZ37v_8&sid=OdvNnkNXMxFk-QtHAAAA HTTP/1.1" 200 -
+2025-08-19 21:48:06,716 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ37v_8.0&sid=OdvNnkNXMxFk-QtHAAAA HTTP/1.1" 200 -
+2025-08-19 21:48:06,725 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:06] "GET /socket.io/?EIO=4&transport=polling&t=PZ37w3_&sid=OdvNnkNXMxFk-QtHAAAA HTTP/1.1" 200 -
+2025-08-19 21:48:08,244 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:08,256 - __main__ - INFO - Client disconnected: f742eVUlmwGGCG9SAAAB
+2025-08-19 21:48:08,256 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /socket.io/?EIO=4&transport=websocket&sid=OdvNnkNXMxFk-QtHAAAA HTTP/1.1" 200 -
+2025-08-19 21:48:08,280 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:08,319 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:08,334 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:08,350 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:08,364 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:08,633 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ37wSw HTTP/1.1" 200 -
+2025-08-19 21:48:08,897 - __main__ - INFO - Client connected: zSlLYctjdX1OPqdRAAAD
+2025-08-19 21:48:08,897 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "POST /socket.io/?EIO=4&transport=polling&t=PZ37wXz&sid=n3ID5MVrzT0gp8z-AAAC HTTP/1.1" 200 -
+2025-08-19 21:48:08,942 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ37wX-&sid=n3ID5MVrzT0gp8z-AAAC HTTP/1.1" 200 -
+2025-08-19 21:48:08,947 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:08] "GET /socket.io/?EIO=4&transport=polling&t=PZ37wco&sid=n3ID5MVrzT0gp8z-AAAC HTTP/1.1" 200 -
+2025-08-19 21:48:10,343 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:10,352 - __main__ - INFO - Client disconnected: zSlLYctjdX1OPqdRAAAD
+2025-08-19 21:48:10,352 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /socket.io/?EIO=4&transport=websocket&sid=n3ID5MVrzT0gp8z-AAAC HTTP/1.1" 200 -
+2025-08-19 21:48:10,364 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:10,395 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:10,404 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:10,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:10,433 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:10,705 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ37wzP HTTP/1.1" 200 -
+2025-08-19 21:48:10,898 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:10,918 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:10,949 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:10,969 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /socket.io/?EIO=4&transport=polling&t=PZ37x62 HTTP/1.1" 200 -
+2025-08-19 21:48:10,977 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:10,987 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:10,997 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:10] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:11,013 - __main__ - INFO - Client connected: MV8y_0rmOekhfkH5AAAG
+2025-08-19 21:48:11,014 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:11] "POST /socket.io/?EIO=4&transport=polling&t=PZ37x6T&sid=WYTadiirLEjWM99VAAAF HTTP/1.1" 200 -
+2025-08-19 21:48:11,014 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:11] "GET /socket.io/?EIO=4&transport=polling&t=PZ37x6U&sid=WYTadiirLEjWM99VAAAF HTTP/1.1" 200 -
+2025-08-19 21:48:11,280 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:11] "GET /socket.io/?EIO=4&transport=polling&t=PZ37x78&sid=WYTadiirLEjWM99VAAAF HTTP/1.1" 200 -
+2025-08-19 21:48:12,045 - threat_detection - INFO - Advanced threat detection engine initialized
+2025-08-19 21:48:12,045 - network_capture - INFO - Network capture engine initialized
+2025-08-19 21:48:12,046 - network_capture - ERROR - Scapy not available - starting simulation mode
+2025-08-19 21:48:12,046 - __main__ - INFO - Network monitoring started
+2025-08-19 21:48:12,046 - network_capture - INFO - Starting network simulation mode
+2025-08-19 21:48:12,047 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:12] "POST /api/monitoring/start HTTP/1.1" 200 -
+2025-08-19 21:48:14,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:14,430 - __main__ - INFO - Client disconnected: MV8y_0rmOekhfkH5AAAG
+2025-08-19 21:48:14,430 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /socket.io/?EIO=4&transport=websocket&sid=WYTadiirLEjWM99VAAAF HTTP/1.1" 200 -
+2025-08-19 21:48:14,443 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:14,470 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:14,475 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /socket.io/?EIO=4&transport=polling&t=PZ37xz2 HTTP/1.1" 200 -
+2025-08-19 21:48:14,483 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:14,494 - __main__ - INFO - Client connected: xgnqJOhLm0ydHibYAAAI
+2025-08-19 21:48:14,494 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "POST /socket.io/?EIO=4&transport=polling&t=PZ37xzE&sid=tMCN6wE4uOMxB86kAAAH HTTP/1.1" 200 -
+2025-08-19 21:48:14,494 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /socket.io/?EIO=4&transport=polling&t=PZ37xzF&sid=tMCN6wE4uOMxB86kAAAH HTTP/1.1" 200 -
+2025-08-19 21:48:14,499 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:14,513 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:14,805 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:14] "GET /socket.io/?EIO=4&transport=polling&t=PZ37xzX&sid=tMCN6wE4uOMxB86kAAAH HTTP/1.1" 200 -
+2025-08-19 21:48:15,363 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:15,371 - __main__ - INFO - Client disconnected: xgnqJOhLm0ydHibYAAAI
+2025-08-19 21:48:15,372 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /socket.io/?EIO=4&transport=websocket&sid=tMCN6wE4uOMxB86kAAAH HTTP/1.1" 200 -
+2025-08-19 21:48:15,387 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:15,414 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:15,417 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /socket.io/?EIO=4&transport=polling&t=PZ37yBp HTTP/1.1" 200 -
+2025-08-19 21:48:15,437 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:15,445 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:15,449 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:15,742 - __main__ - INFO - Client connected: QOf7YGzEx5KFLtykAAAK
+2025-08-19 21:48:15,744 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "POST /socket.io/?EIO=4&transport=polling&t=PZ37yC7&sid=yK-2hWW6S-L9aPUMAAAJ HTTP/1.1" 200 -
+2025-08-19 21:48:15,745 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:15] "GET /socket.io/?EIO=4&transport=polling&t=PZ37yC7.0&sid=yK-2hWW6S-L9aPUMAAAJ HTTP/1.1" 200 -
+2025-08-19 21:48:16,532 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:16,540 - __main__ - INFO - Client disconnected: QOf7YGzEx5KFLtykAAAK
+2025-08-19 21:48:16,540 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /socket.io/?EIO=4&transport=websocket&sid=yK-2hWW6S-L9aPUMAAAJ HTTP/1.1" 200 -
+2025-08-19 21:48:16,560 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:16,589 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:16,592 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /socket.io/?EIO=4&transport=polling&t=PZ37yU4 HTTP/1.1" 200 -
+2025-08-19 21:48:16,601 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:16,615 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:16,620 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:16,926 - __main__ - INFO - Client connected: QSPPcoWwQD31GbbLAAAM
+2025-08-19 21:48:16,927 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "POST /socket.io/?EIO=4&transport=polling&t=PZ37yUW&sid=Z82H_EEYlF1zeuTBAAAL HTTP/1.1" 200 -
+2025-08-19 21:48:16,928 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:16] "GET /socket.io/?EIO=4&transport=polling&t=PZ37yUX&sid=Z82H_EEYlF1zeuTBAAAL HTTP/1.1" 200 -
+2025-08-19 21:48:17,130 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:17,141 - __main__ - INFO - Client disconnected: QSPPcoWwQD31GbbLAAAM
+2025-08-19 21:48:17,142 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /socket.io/?EIO=4&transport=websocket&sid=Z82H_EEYlF1zeuTBAAAL HTTP/1.1" 200 -
+2025-08-19 21:48:17,160 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:17,197 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:17,197 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /socket.io/?EIO=4&transport=polling&t=PZ37ydd HTTP/1.1" 200 -
+2025-08-19 21:48:17,227 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:17,239 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:17,249 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:17,534 - __main__ - INFO - Client connected: 5ntPXzfkpc2Oi8N_AAAO
+2025-08-19 21:48:17,536 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "POST /socket.io/?EIO=4&transport=polling&t=PZ37ydn&sid=kDJ_3F5aP-3OfNWfAAAN HTTP/1.1" 200 -
+2025-08-19 21:48:17,538 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /socket.io/?EIO=4&transport=polling&t=PZ37ydo&sid=kDJ_3F5aP-3OfNWfAAAN HTTP/1.1" 200 -
+2025-08-19 21:48:17,748 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:17,758 - __main__ - INFO - Client disconnected: 5ntPXzfkpc2Oi8N_AAAO
+2025-08-19 21:48:17,759 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /socket.io/?EIO=4&transport=websocket&sid=kDJ_3F5aP-3OfNWfAAAN HTTP/1.1" 200 -
+2025-08-19 21:48:17,776 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:17,810 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:17,810 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /socket.io/?EIO=4&transport=polling&t=PZ37ynD HTTP/1.1" 200 -
+2025-08-19 21:48:17,822 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:17,837 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:17,848 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:17] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:18,143 - __main__ - INFO - Client connected: e9zlMcPUpqWQmNKaAAAQ
+2025-08-19 21:48:18,144 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "POST /socket.io/?EIO=4&transport=polling&t=PZ37ynM&sid=GaVEKltB4XdV80iYAAAP HTTP/1.1" 200 -
+2025-08-19 21:48:18,145 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /socket.io/?EIO=4&transport=polling&t=PZ37ynN&sid=GaVEKltB4XdV80iYAAAP HTTP/1.1" 200 -
+2025-08-19 21:48:18,288 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:18,297 - __main__ - INFO - Client disconnected: e9zlMcPUpqWQmNKaAAAQ
+2025-08-19 21:48:18,298 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /socket.io/?EIO=4&transport=websocket&sid=GaVEKltB4XdV80iYAAAP HTTP/1.1" 200 -
+2025-08-19 21:48:18,312 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:18,342 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:18,350 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:18,365 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:18,370 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:18,393 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /socket.io/?EIO=4&transport=polling&t=PZ37yvY HTTP/1.1" 200 -
+2025-08-19 21:48:18,658 - __main__ - INFO - Client connected: 4NRVHZD_2shiiF5uAAAS
+2025-08-19 21:48:18,658 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "POST /socket.io/?EIO=4&transport=polling&t=PZ37ywR&sid=fNNpDRuIfYDDLySzAAAR HTTP/1.1" 200 -
+2025-08-19 21:48:18,704 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /socket.io/?EIO=4&transport=polling&t=PZ37ywS&sid=fNNpDRuIfYDDLySzAAAR HTTP/1.1" 200 -
+2025-08-19 21:48:18,709 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /socket.io/?EIO=4&transport=polling&t=PZ37y_J&sid=fNNpDRuIfYDDLySzAAAR HTTP/1.1" 200 -
+2025-08-19 21:48:18,888 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:18,898 - __main__ - INFO - Client disconnected: 4NRVHZD_2shiiF5uAAAS
+2025-08-19 21:48:18,899 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /socket.io/?EIO=4&transport=websocket&sid=fNNpDRuIfYDDLySzAAAR HTTP/1.1" 200 -
+2025-08-19 21:48:18,913 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:18,943 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:18,952 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:18,966 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:18,980 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:18] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:19,249 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /socket.io/?EIO=4&transport=polling&t=PZ37z2y HTTP/1.1" 200 -
+2025-08-19 21:48:19,513 - __main__ - INFO - Client connected: JEP-75dhB1FL3EwEAAAU
+2025-08-19 21:48:19,513 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "POST /socket.io/?EIO=4&transport=polling&t=PZ37z7s&sid=WRwsOm1YEoP1NBfCAAAT HTTP/1.1" 200 -
+2025-08-19 21:48:19,559 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /socket.io/?EIO=4&transport=polling&t=PZ37z7s.0&sid=WRwsOm1YEoP1NBfCAAAT HTTP/1.1" 200 -
+2025-08-19 21:48:19,562 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zCf&sid=WRwsOm1YEoP1NBfCAAAT HTTP/1.1" 200 -
+2025-08-19 21:48:19,757 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:19,764 - __main__ - INFO - Client disconnected: JEP-75dhB1FL3EwEAAAU
+2025-08-19 21:48:19,765 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /socket.io/?EIO=4&transport=websocket&sid=WRwsOm1YEoP1NBfCAAAT HTTP/1.1" 200 -
+2025-08-19 21:48:19,780 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:19,806 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:19,819 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:19,834 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:19,846 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:19] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:20,116 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zGR HTTP/1.1" 200 -
+2025-08-19 21:48:20,328 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:20,349 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:20,382 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:20,384 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zPR HTTP/1.1" 200 -
+2025-08-19 21:48:20,407 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:20,415 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:20,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:20,424 - __main__ - INFO - Client connected: R91BMW6hd-mlQTnsAAAX
+2025-08-19 21:48:20,425 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "POST /socket.io/?EIO=4&transport=polling&t=PZ37zPb&sid=JaPelJhuA75sBdjKAAAW HTTP/1.1" 200 -
+2025-08-19 21:48:20,425 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zPb.0&sid=JaPelJhuA75sBdjKAAAW HTTP/1.1" 200 -
+2025-08-19 21:48:20,709 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zQD&sid=JaPelJhuA75sBdjKAAAW HTTP/1.1" 200 -
+2025-08-19 21:48:20,926 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:20,937 - __main__ - INFO - Client disconnected: R91BMW6hd-mlQTnsAAAX
+2025-08-19 21:48:20,938 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /socket.io/?EIO=4&transport=websocket&sid=JaPelJhuA75sBdjKAAAW HTTP/1.1" 200 -
+2025-08-19 21:48:20,949 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:20,980 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:20,981 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:20] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zYm HTTP/1.1" 200 -
+2025-08-19 21:48:21,004 - __main__ - INFO - Client connected: S189Gh_pIAeilx3PAAAZ
+2025-08-19 21:48:21,005 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "POST /socket.io/?EIO=4&transport=polling&t=PZ37zZ0&sid=yOW09TWCZUB7bul4AAAY HTTP/1.1" 200 -
+2025-08-19 21:48:21,011 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:21,019 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:21,029 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:21,296 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:21,315 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:21,345 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:21,345 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zeT HTTP/1.1" 200 -
+2025-08-19 21:48:21,364 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:21,372 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:21,381 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:21,675 - __main__ - INFO - Client connected: ibRxFT3nlTJe5ddNAAAb
+2025-08-19 21:48:21,678 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "POST /socket.io/?EIO=4&transport=polling&t=PZ37zea&sid=nmeGvlgbznbri_WHAAAa HTTP/1.1" 200 -
+2025-08-19 21:48:21,678 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zea.0&sid=nmeGvlgbznbri_WHAAAa HTTP/1.1" 200 -
+2025-08-19 21:48:21,731 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:21,741 - __main__ - INFO - Client disconnected: ibRxFT3nlTJe5ddNAAAb
+2025-08-19 21:48:21,742 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /socket.io/?EIO=4&transport=websocket&sid=nmeGvlgbznbri_WHAAAa HTTP/1.1" 200 -
+2025-08-19 21:48:21,756 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:21,786 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:21,797 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:21,811 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:21,815 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:21,940 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:21] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zlK HTTP/1.1" 200 -
+2025-08-19 21:48:22,095 - __main__ - INFO - Client connected: J4jUTAwWvcPH-I49AAAd
+2025-08-19 21:48:22,095 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "POST /socket.io/?EIO=4&transport=polling&t=PZ37znr&sid=5jw2JhRo4AICzUfRAAAc HTTP/1.1" 200 -
+2025-08-19 21:48:22,144 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:22,165 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:22,193 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:22,218 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:22,227 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:22,231 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:22,253 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zrj HTTP/1.1" 200 -
+2025-08-19 21:48:22,257 - __main__ - INFO - Client connected: 8oE0_-NWSzxtRwZjAAAf
+2025-08-19 21:48:22,258 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "POST /socket.io/?EIO=4&transport=polling&t=PZ37zsm&sid=lpHOn5ANrwMJYFrkAAAe HTTP/1.1" 200 -
+2025-08-19 21:48:22,498 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zsm.0&sid=lpHOn5ANrwMJYFrkAAAe HTTP/1.1" 200 -
+2025-08-19 21:48:22,555 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:22,560 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zwe&sid=lpHOn5ANrwMJYFrkAAAe HTTP/1.1" 200 -
+2025-08-19 21:48:22,564 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /socket.io/?EIO=4&transport=websocket&sid=lpHOn5ANrwMJYFrkAAAe HTTP/1.1" 200 -
+2025-08-19 21:48:22,577 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:22,607 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:22,628 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:22,636 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:22,645 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:22,809 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET /socket.io/?EIO=4&transport=polling&t=PZ37zy9 HTTP/1.1" 200 -
+2025-08-19 21:48:22,919 - __main__ - INFO - Client connected: cggQd7LgYg-yPIfMAAAh
+2025-08-19 21:48:22,919 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "POST /socket.io/?EIO=4&transport=polling&t=PZ37z_R&sid=vqhXaujcESCtrGddAAAg HTTP/1.1" 200 -
+2025-08-19 21:48:22,963 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:22,983 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:22] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:23,010 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:23,018 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:23,031 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:23,037 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:23,121 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-2V HTTP/1.1" 200 -
+2025-08-19 21:48:23,126 - __main__ - INFO - Client connected: mygfgVUcrvermhgNAAAj
+2025-08-19 21:48:23,126 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "POST /socket.io/?EIO=4&transport=polling&t=PZ37-4J&sid=h4o654I_ZA6gNVwuAAAi HTTP/1.1" 200 -
+2025-08-19 21:48:23,323 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-4K&sid=h4o654I_ZA6gNVwuAAAi HTTP/1.1" 200 -
+2025-08-19 21:48:23,346 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:23,370 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:23,394 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:23,404 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:23,419 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:23,432 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-8U HTTP/1.1" 200 -
+2025-08-19 21:48:23,433 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:23,636 - __main__ - INFO - Client connected: Zi-1SGSsRnUW_VwJAAAl
+2025-08-19 21:48:23,637 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "POST /socket.io/?EIO=4&transport=polling&t=PZ37-9C&sid=YMnq_phgky_Vwkf0AAAk HTTP/1.1" 200 -
+2025-08-19 21:48:23,698 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-9D&sid=YMnq_phgky_Vwkf0AAAk HTTP/1.1" 200 -
+2025-08-19 21:48:23,747 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-DK&sid=YMnq_phgky_Vwkf0AAAk HTTP/1.1" 200 -
+2025-08-19 21:48:23,853 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:23,862 - __main__ - INFO - Client disconnected: Zi-1SGSsRnUW_VwJAAAl
+2025-08-19 21:48:23,863 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=websocket&sid=YMnq_phgky_Vwkf0AAAk HTTP/1.1" 200 -
+2025-08-19 21:48:23,874 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:23,903 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:23,907 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-GQ HTTP/1.1" 200 -
+2025-08-19 21:48:23,930 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:23,939 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:23,947 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:23] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:24,011 - __main__ - INFO - Client connected: -uLDA4gTFoDVt0WZAAAn
+2025-08-19 21:48:24,012 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "POST /socket.io/?EIO=4&transport=polling&t=PZ37-Gg&sid=bxuSP_67w_7yogpYAAAm HTTP/1.1" 200 -
+2025-08-19 21:48:24,231 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-Gh&sid=bxuSP_67w_7yogpYAAAm HTTP/1.1" 200 -
+2025-08-19 21:48:24,239 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-Lh&sid=bxuSP_67w_7yogpYAAAm HTTP/1.1" 200 -
+2025-08-19 21:48:24,252 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:24,263 - __main__ - INFO - Client disconnected: -uLDA4gTFoDVt0WZAAAn
+2025-08-19 21:48:24,264 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /socket.io/?EIO=4&transport=websocket&sid=bxuSP_67w_7yogpYAAAm HTTP/1.1" 200 -
+2025-08-19 21:48:24,278 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:24,306 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:24,328 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:24,337 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:24,347 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:24,621 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-Mi HTTP/1.1" 200 -
+2025-08-19 21:48:24,644 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:24,666 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:24,696 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:24,705 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:24,721 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:24,730 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:24,888 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-Sr HTTP/1.1" 200 -
+2025-08-19 21:48:24,932 - __main__ - INFO - Client connected: M1n5cNi5uiK76nmrAAAq
+2025-08-19 21:48:24,933 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "POST /socket.io/?EIO=4&transport=polling&t=PZ37-V-&sid=YX6gz8JiLUJ58NHJAAAp HTTP/1.1" 200 -
+2025-08-19 21:48:24,933 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:24] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-V_&sid=YX6gz8JiLUJ58NHJAAAp HTTP/1.1" 200 -
+2025-08-19 21:48:25,202 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-Wf&sid=YX6gz8JiLUJ58NHJAAAp HTTP/1.1" 200 -
+2025-08-19 21:48:25,220 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:25,231 - __main__ - INFO - Client disconnected: M1n5cNi5uiK76nmrAAAq
+2025-08-19 21:48:25,231 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=websocket&sid=YX6gz8JiLUJ58NHJAAAp HTTP/1.1" 200 -
+2025-08-19 21:48:25,245 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:25,277 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:25,279 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-bw HTTP/1.1" 200 -
+2025-08-19 21:48:25,299 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:25,299 - __main__ - INFO - Client connected: 71Vy-Y21KreXI7-rAAAs
+2025-08-19 21:48:25,300 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "POST /socket.io/?EIO=4&transport=polling&t=PZ37-cE&sid=3l5QY5J58eqE1urGAAAr HTTP/1.1" 200 -
+2025-08-19 21:48:25,301 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-cE.0&sid=3l5QY5J58eqE1urGAAAr HTTP/1.1" 200 -
+2025-08-19 21:48:25,311 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:25,314 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:25,622 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-cR&sid=3l5QY5J58eqE1urGAAAr HTTP/1.1" 200 -
+2025-08-19 21:48:25,690 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:25,699 - __main__ - INFO - Client disconnected: 71Vy-Y21KreXI7-rAAAs
+2025-08-19 21:48:25,700 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=websocket&sid=3l5QY5J58eqE1urGAAAr HTTP/1.1" 200 -
+2025-08-19 21:48:25,713 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:25,746 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:25,772 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:25,780 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:25,783 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:25,886 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:25] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-jD HTTP/1.1" 200 -
+2025-08-19 21:48:26,056 - __main__ - INFO - Client connected: VaP0B-NGNpBsyBjuAAAu
+2025-08-19 21:48:26,056 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:26] "POST /socket.io/?EIO=4&transport=polling&t=PZ37-lW&sid=nJcqKBy6Mp0fDsrGAAAt HTTP/1.1" 200 -
+2025-08-19 21:48:26,196 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:26] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-lX&sid=nJcqKBy6Mp0fDsrGAAAt HTTP/1.1" 200 -
+2025-08-19 21:48:26,200 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:26] "GET /socket.io/?EIO=4&transport=polling&t=PZ37-qM&sid=nJcqKBy6Mp0fDsrGAAAt HTTP/1.1" 200 -
+2025-08-19 21:48:27,228 - network_capture - WARNING - Threat detected: MALWARE from 192.0.2.1 - CRITICAL
+2025-08-19 21:48:28,349 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:28,358 - __main__ - INFO - Client disconnected: VaP0B-NGNpBsyBjuAAAu
+2025-08-19 21:48:28,359 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET /socket.io/?EIO=4&transport=websocket&sid=nJcqKBy6Mp0fDsrGAAAt HTTP/1.1" 200 -
+2025-08-19 21:48:28,372 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:28,399 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:28,422 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:28,430 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:28,442 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:28,716 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "GET /socket.io/?EIO=4&transport=polling&t=PZ37_Mi HTTP/1.1" 200 -
+2025-08-19 21:48:28,968 - __main__ - INFO - Client connected: iWTA6rDm0YLbCYiaAAAw
+2025-08-19 21:48:28,969 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:28] "POST /socket.io/?EIO=4&transport=polling&t=PZ37_Rm&sid=oGPZWmCIVvm6Xs5RAAAv HTTP/1.1" 200 -
+2025-08-19 21:48:29,030 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ37_Rm.0&sid=oGPZWmCIVvm6Xs5RAAAv HTTP/1.1" 200 -
+2025-08-19 21:48:29,037 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:29] "GET /socket.io/?EIO=4&transport=polling&t=PZ37_Wg&sid=oGPZWmCIVvm6Xs5RAAAv HTTP/1.1" 200 -
+2025-08-19 21:48:30,322 - network_capture - WARNING - Threat detected: MALWARE from 192.168.1.101 - CRITICAL
+2025-08-19 21:48:36,975 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:36] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:36,983 - __main__ - INFO - Client disconnected: iWTA6rDm0YLbCYiaAAAw
+2025-08-19 21:48:36,984 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:36] "GET /socket.io/?EIO=4&transport=websocket&sid=oGPZWmCIVvm6Xs5RAAAv HTTP/1.1" 200 -
+2025-08-19 21:48:36,998 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:36] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:37,030 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:37,039 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:37,054 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:37,062 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:37,339 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ381TZ HTTP/1.1" 200 -
+2025-08-19 21:48:37,604 - __main__ - INFO - Client connected: n27gGaFY7ORwFdqaAAAy
+2025-08-19 21:48:37,605 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "POST /socket.io/?EIO=4&transport=polling&t=PZ381YS&sid=n2L4CANREr5Fnt06AAAx HTTP/1.1" 200 -
+2025-08-19 21:48:37,648 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ381YT&sid=n2L4CANREr5Fnt06AAAx HTTP/1.1" 200 -
+2025-08-19 21:48:37,654 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:37] "GET /socket.io/?EIO=4&transport=polling&t=PZ381dJ&sid=n2L4CANREr5Fnt06AAAx HTTP/1.1" 200 -
+2025-08-19 21:48:38,087 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET / HTTP/1.1" 200 -
+2025-08-19 21:48:38,094 - __main__ - INFO - Client disconnected: n27gGaFY7ORwFdqaAAAy
+2025-08-19 21:48:38,094 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /socket.io/?EIO=4&transport=websocket&sid=n2L4CANREr5Fnt06AAAx HTTP/1.1" 200 -
+2025-08-19 21:48:38,108 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:48:38,139 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:48:38,160 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:48:38,168 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:48:38,178 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:48:38,364 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.0.2.1 - HIGH
+2025-08-19 21:48:38,448 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /socket.io/?EIO=4&transport=polling&t=PZ381ku HTTP/1.1" 200 -
+2025-08-19 21:48:38,712 - __main__ - INFO - Client connected: NN7bdiIDmCMdCWpTAAA0
+2025-08-19 21:48:38,712 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "POST /socket.io/?EIO=4&transport=polling&t=PZ381ps&sid=tGSrRINpiAMYAMfFAAAz HTTP/1.1" 200 -
+2025-08-19 21:48:38,772 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /socket.io/?EIO=4&transport=polling&t=PZ381pt&sid=tGSrRINpiAMYAMfFAAAz HTTP/1.1" 200 -
+2025-08-19 21:48:38,775 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:48:38] "GET /socket.io/?EIO=4&transport=polling&t=PZ381us&sid=tGSrRINpiAMYAMfFAAAz HTTP/1.1" 200 -
+2025-08-19 21:48:44,559 - network_capture - WARNING - Threat detected: MALWARE from 198.51.100.1 - CRITICAL
+2025-08-19 21:48:53,765 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.102 - HIGH
+2025-08-19 21:49:01,019 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 21:49:03,321 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 21:49:04,362 - network_capture - WARNING - Threat detected: MALWARE from 203.0.113.1 - CRITICAL
+2025-08-19 21:49:11,004 - __main__ - INFO - Client disconnected: S189Gh_pIAeilx3PAAAZ
+2025-08-19 21:49:13,232 - __main__ - INFO - Client disconnected: J4jUTAwWvcPH-I49AAAd
+2025-08-19 21:49:14,607 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.168.1.102 - HIGH
+2025-08-19 21:49:15,471 - __main__ - INFO - Client disconnected: 8oE0_-NWSzxtRwZjAAAf
+2025-08-19 21:49:15,971 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 192.168.1.100 - HIGH
+2025-08-19 21:49:17,708 - __main__ - INFO - Client disconnected: cggQd7LgYg-yPIfMAAAh
+2025-08-19 21:49:19,944 - __main__ - INFO - Client disconnected: mygfgVUcrvermhgNAAAj
+2025-08-19 21:49:27,006 - network_capture - WARNING - Threat detected: PORT_SCAN from 172.16.0.10 - HIGH
+2025-08-19 21:49:43,761 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "GET / HTTP/1.1" 200 -
+2025-08-19 21:49:43,771 - __main__ - INFO - Client disconnected: NN7bdiIDmCMdCWpTAAA0
+2025-08-19 21:49:43,772 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "GET /socket.io/?EIO=4&transport=websocket&sid=tGSrRINpiAMYAMfFAAAz HTTP/1.1" 200 -
+2025-08-19 21:49:43,794 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 21:49:43,820 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 21:49:43,831 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 21:49:43,855 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 21:49:43,859 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:43] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 21:49:44,139 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PZ38Hn7 HTTP/1.1" 200 -
+2025-08-19 21:49:44,387 - __main__ - INFO - Client connected: gq5sgMPe98gz6nhZAAA2
+2025-08-19 21:49:44,388 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:44] "POST /socket.io/?EIO=4&transport=polling&t=PZ38HsE&sid=gMXTtljPnhSloeCtAAA1 HTTP/1.1" 200 -
+2025-08-19 21:49:44,448 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PZ38HsE.0&sid=gMXTtljPnhSloeCtAAA1 HTTP/1.1" 200 -
+2025-08-19 21:49:44,452 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 21:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PZ38Hx3&sid=gMXTtljPnhSloeCtAAA1 HTTP/1.1" 200 -
+2025-08-19 21:49:46,350 - network_capture - WARNING - Threat detected: PORT_SCAN from 192.0.2.1 - HIGH
+2025-08-19 21:49:46,651 - network_capture - WARNING - Threat detected: MALWARE from 10.0.0.51 - HIGH
+2025-08-19 21:50:00,243 - network_capture - WARNING - Threat detected: BRUTE_FORCE from 172.16.0.10 - HIGH

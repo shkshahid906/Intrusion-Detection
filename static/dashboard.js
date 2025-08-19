@@ -139,6 +139,10 @@ class AdvancedIDSDashboard {
       const events = await eventsResponse.json()
       this.events = events
       this.renderEvents()
+      // Update stats again so unique IPs is correct
+      if (this.previousStats) {
+        this.updateStats(this.previousStats)
+      }
 
       // Load alerts
       const alertsResponse = await fetch("/api/alerts?limit=50")
@@ -242,10 +246,12 @@ class AdvancedIDSDashboard {
 
   updateStats(stats) {
     // Update basic stats
-    document.getElementById("total-events").textContent = stats.totalEvents || 0
-    document.getElementById("threats-detected").textContent = stats.threatsDetected || 0
-    document.getElementById("active-connections").textContent = stats.activeConnections || 0
-    document.getElementById("blocked-connections").textContent = stats.blockedConnections || 0
+  document.getElementById("total-events").textContent = stats.totalEvents || 0
+  document.getElementById("threats-detected").textContent = stats.threatsDetected || 0
+  // Show unique IPs from events for Active IPs
+  const uniqueIPs = [...new Set(this.events.flatMap((e) => [e.sourceIP, e.destinationIP]))]
+  document.getElementById("active-connections").textContent = uniqueIPs.length
+  document.getElementById("blocked-connections").textContent = stats.blockedConnections || 0
 
     // Calculate and show trends
     this.updateStatsTrends(stats)
