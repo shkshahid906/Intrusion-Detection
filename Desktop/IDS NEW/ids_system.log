@@ -1,0 +1,75 @@
+2025-08-19 22:26:57,873 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:57] "GET / HTTP/1.1" 200 -
+2025-08-19 22:26:58,064 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:58] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-19 22:26:59,255 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/stats HTTP/1.1" 200 -
+2025-08-19 22:26:59,520 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/events?limit=100 HTTP/1.1" 200 -
+2025-08-19 22:26:59,568 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2025-08-19 22:26:59,575 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /api/monitoring/status HTTP/1.1" 200 -
+2025-08-19 22:26:59,770 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:26:59] "GET /socket.io/?EIO=4&transport=polling&t=PZ3GpXa HTTP/1.1" 200 -
+2025-08-19 22:27:00,013 - __main__ - INFO - Client connected: iicercEzNmPhBcq-AAAB
+2025-08-19 22:27:00,014 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:27:00] "POST /socket.io/?EIO=4&transport=polling&t=PZ3Gpf_&sid=0BkeGhRtLGPPBbqMAAAA HTTP/1.1" 200 -
+2025-08-19 22:27:00,085 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:27:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Gpg1&sid=0BkeGhRtLGPPBbqMAAAA HTTP/1.1" 200 -
+2025-08-19 22:27:00,097 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 22:27:00] "GET /socket.io/?EIO=4&transport=polling&t=PZ3Gpkz&sid=0BkeGhRtLGPPBbqMAAAA HTTP/1.1" 200 -
+2025-08-19 22:27:25,185 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:27:27,350 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:28:25,186 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:28:27,351 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:29:25,187 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:29:27,353 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:30:25,189 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:30:27,356 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:25,192 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:25,204 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:31:25,208 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:31:25,208 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:27,358 - alert_manager - ERROR - Error in escalation monitor: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-08-19 22:31:27,374 - database_manager - ERROR - Database optimization error: 'Engine' object has no attribute 'execute'
+2025-08-19 22:31:27,378 - database_manager - ERROR - Record cleanup error: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-08-19 22:31:27,379 - database_manager - ERROR - Database maintenance error: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
