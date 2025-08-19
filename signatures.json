@@ -1,5 +1,0 @@
-{
-  "malicious_ips": ["192.168.56.22", "203.0.113.77"],
-  "malicious_payloads": [],
-  "suspicious_ports": [4444, 5555]
-}

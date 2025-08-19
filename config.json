@@ -1,7 +1,0 @@
-{
-  "request_limit": 100,
-  "time_window": 10,
-  "alert_cooldown": 30,
-  "log_file": "intrusion.log",
-  "whitelist": []
-}
