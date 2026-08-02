@@ -1,0 +1,131 @@
+.cta-global-section {
+  padding: 60px 5%;
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
+  width: 100%;
+}
+
+.cta-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.cta-text {
+  flex: 1;
+  text-align: left;
+}
+
+.cta-text h2 {
+  font-size: 32px;
+  color: var(--white);
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.cta-text p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+  max-width: 500px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.cta-wa-btn {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.cta-wa-btn:hover {
+  background: linear-gradient(135deg, #1da851, #0f6e63);
+  transform: translateY(-3px);
+  color:white;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+.cta-browse-btn {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--white);
+}
+
+.cta-browse-btn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: var(--white);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 992px) {
+  .cta-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .cta-text {
+    text-align: center;
+  }
+  .cta-text p {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-global-section {
+    padding: 24px 5% 16px 5%;
+  }
+  .cta-content-wrapper {
+    gap: 20px;
+  }
+  .cta-text h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .cta-text p {
+    font-size: 14px;
+  }
+  .cta-buttons {
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  .cta-btn {
+    flex: 1;
+    width: 50%;
+    padding: 12px 8px;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+  }
+}

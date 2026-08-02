@@ -1,0 +1,290 @@
+/* Generic styles for Admin CRUD Pages - Premium Dark Theme */
+.admin-page {
+  background-color: var(--bg-main);
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  overflow: hidden;
+  animation: fadeInPage 0.4s ease-out;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes fadeInPage {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.admin-page-header {
+  padding: 24px 32px;
+  background: var(--bg-main);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-page-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: -0.02em;
+}
+
+.btn-add {
+  padding: 10px 24px;
+  background: var(--primary-accent);
+  color: var(--text-button);
+  border: 1px solid var(--primary-accent);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-add:hover { 
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.admin-table-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 0;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: var(--bg-secondary);
+  padding: 10px 20px !important;
+  font-size: 11px !important;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.admin-table td {
+  padding: 10px 20px !important;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  color: var(--white);
+  font-size: 13px !important;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.admin-table tr:nth-child(even) td {
+  background-color: #181818;
+}
+
+.admin-table tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.action-buttons {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.action-buttons button,
+.action-buttons a {
+  margin-right: 8px;
+}
+.action-buttons button:last-child,
+.action-buttons a:last-child {
+  margin-right: 0;
+}
+
+.admin-btn-primary {
+  padding: 6px 12px !important;
+  background-color: var(--bg-secondary) !important;
+  color: var(--white) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.admin-btn-primary:hover { background-color: var(--primary-accent) !important; color: var(--text-button) !important; border-color: var(--primary-accent) !important; }
+
+.admin-btn-edit {
+  padding: 6px 12px !important;
+  background-color: transparent !important;
+  color: var(--white) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.admin-btn-edit:hover { border-color: var(--primary-accent) !important; color: var(--primary-accent) !important; }
+
+.admin-btn-delete {
+  padding: 6px 12px !important;
+  background-color: transparent !important;
+  color: var(--error-red) !important;
+  border: 1px solid var(--error-red) !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.admin-btn-delete:hover { background-color: var(--error-red) !important; color: var(--white) !important; }
+
+.admin-btn-whatsapp {
+  padding: 6px 12px !important;
+  background-color: #25D366 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #25D366 !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.admin-btn-whatsapp:hover { background-color: #128C7E !important; border-color: #128C7E !important; }
+
+.admin-table select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.admin-table select:focus {
+  border-color: var(--primary-accent);
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  border: 1px solid var(--border-color);
+  color: var(--white);
+  background: var(--bg-card);
+}
+
+.status-active, .status-success { border-color: var(--success-green); color: var(--success-green); }
+.status-inactive, .status-pending { border-color: var(--badge-orange); color: var(--badge-orange); }
+.status-error { border-color: var(--error-red); color: var(--error-red); }
+
+/* Forms & Inputs */
+.admin-form {
+  padding: 16px;
+}
+
+.admin-form .form-group {
+  margin-bottom: 16px;
+}
+
+.admin-form label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form textarea {
+  box-sizing: border-box !important;
+  width: 100%;
+  padding: 10px 14px !important;
+  background-color: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 6px !important;
+  color: var(--white) !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02) !important;
+}
+
+.admin-form input::placeholder,
+.admin-form textarea::placeholder {
+  color: var(--text-muted) !important;
+}
+
+.admin-form input:focus,
+.admin-form select:focus,
+.admin-form textarea:focus {
+  border-color: var(--primary-accent) !important;
+  outline: none;
+  box-shadow: 0 0 0 1px var(--primary-accent) !important;
+}
+
+.admin-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding-top: 24px;
+  margin-top: 16px;
+  border-top: 1px solid var(--border-color);
+}
+
+.btn-secondary {
+  padding: 12px 24px !important;
+  background-color: transparent !important;
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-secondary:hover { 
+  background-color: rgba(255, 255, 255, 0.05) !important; 
+  color: var(--white) !important; 
+  border-color: var(--white) !important; 
+}
+
+.admin-form .btn-primary {
+  padding: 12px 24px !important;
+  background-color: var(--primary-accent) !important;
+  color: var(--text-button) !important;
+  border: 1px solid var(--primary-accent) !important;
+  border-radius: 8px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.admin-form .btn-primary:hover { 
+  background-color: var(--accent-hover) !important; 
+  border-color: var(--accent-hover) !important; 
+}
