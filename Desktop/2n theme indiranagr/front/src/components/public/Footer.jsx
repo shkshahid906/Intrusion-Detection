@@ -45,7 +45,7 @@ const Footer = () => {
           </Link>
           <p className="footer-desc">
             {footerInfo.footer_text 
-              ? footerInfo.footer_text.replace(/Hyderabad|Bangalore|Bengaluru|Koramangala/gi, 'Indiranagar')
+              ? footerInfo.footer_text.replace(/Indiranagar|Bangalore|Bengaluru|Koramangala/gi, 'Indiranagar')
               : "Premium vape store in Indiranagar offering top-tier disposable vapes, e-liquids, and fast local delivery for adults 21+."}
           </p>
         </div>

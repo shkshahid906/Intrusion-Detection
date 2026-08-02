@@ -53,11 +53,11 @@ connection.connect((err) => {
     }
   });
 
-  // Run updates to rename any existing Hyderabad/Bangalore/Bengaluru content to Indiranagar
-  connection.query("UPDATE about_us SET title = REPLACE(REPLACE(REPLACE(title, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), description = REPLACE(REPLACE(REPLACE(description, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
-  connection.query("UPDATE why_choose_us SET title = REPLACE(REPLACE(REPLACE(title, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), description = REPLACE(REPLACE(REPLACE(description, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
-  connection.query("UPDATE footer_settings SET footer_text = REPLACE(REPLACE(REPLACE(REPLACE(footer_text, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), 'Koramangala', 'Indiranagar'), copyright_text = REPLACE(REPLACE(REPLACE(copyright_text, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), footer_logo_text = REPLACE(REPLACE(REPLACE(footer_logo_text, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
-  connection.query("UPDATE contact_information SET address = REPLACE(REPLACE(REPLACE(address, 'Hyderabad', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
+  // Run updates to rename any existing Indiranagar/Bangalore/Bengaluru content to Indiranagar
+  connection.query("UPDATE about_us SET title = REPLACE(REPLACE(REPLACE(title, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), description = REPLACE(REPLACE(REPLACE(description, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
+  connection.query("UPDATE why_choose_us SET title = REPLACE(REPLACE(REPLACE(title, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), description = REPLACE(REPLACE(REPLACE(description, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
+  connection.query("UPDATE footer_settings SET footer_text = REPLACE(REPLACE(REPLACE(REPLACE(footer_text, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), 'Koramangala', 'Indiranagar'), copyright_text = REPLACE(REPLACE(REPLACE(copyright_text, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), footer_logo_text = REPLACE(REPLACE(REPLACE(footer_logo_text, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
+  connection.query("UPDATE contact_information SET address = REPLACE(REPLACE(REPLACE(address, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
 
   // Ensure whatsapp_settings has a default row if empty
   connection.query("SELECT COUNT(*) as count FROM whatsapp_settings", (wErr, wResult) => {
