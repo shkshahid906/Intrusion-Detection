@@ -210,7 +210,10 @@ const Checkout = () => {
           .replace(/\[CUSTOMER_NAME\]/g, formData.name)
           .replace(/\[ORDER_ID\]/g, orderId)
           .replace(/\[ITEMS\]/g, itemsList)
-          .replace(/\[TOTAL\]/g, cartTotal.toLocaleString('en-IN'));
+          .replace(/\[TOTAL\]/g, cartTotal.toLocaleString('en-IN'))
+          .replace(/\[PHONE\]/g, formData.phone)
+          .replace(/\[ADDRESS\]/g, formData.address)
+          .replace(/\[PIN\]/g, formData.pin);
       } else {
         message = `━━━━━━━━━━━━━━━━━━━━
 🛍️ *VAPES Indiranagar | ORDER CONFIRMATION*

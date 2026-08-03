@@ -93,7 +93,7 @@ const WhatsAppSettings = () => {
                 onChange={handleInputChange} 
                 style={{ flex: 1, minHeight: '150px', resize: 'vertical' }}
               ></textarea>
-              <small style={{ color: 'var(--text-muted)', marginTop: '4px', display: 'block' }}>Use placeholders: [CUSTOMER_NAME], [ORDER_ID], [ITEMS], [TOTAL]</small>
+              <small style={{ color: 'var(--text-muted)', marginTop: '4px', display: 'block' }}>Use placeholders: [CUSTOMER_NAME], [ORDER_ID], [ITEMS], [TOTAL], [PHONE], [ADDRESS], [PIN]</small>
             </div>
 
             <div style={{ marginTop: 'auto', textAlign: 'right' }}>
