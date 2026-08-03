@@ -4,7 +4,8 @@ const connection = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME
+  database: process.env.DB_NAME,
+  charset: 'utf8mb4'
 });
 
 connection.connect((err) => {
@@ -58,6 +59,11 @@ connection.connect((err) => {
   connection.query("UPDATE why_choose_us SET title = REPLACE(REPLACE(REPLACE(title, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), description = REPLACE(REPLACE(REPLACE(description, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
   connection.query("UPDATE footer_settings SET footer_text = REPLACE(REPLACE(REPLACE(REPLACE(footer_text, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), 'Koramangala', 'Indiranagar'), copyright_text = REPLACE(REPLACE(REPLACE(copyright_text, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar'), footer_logo_text = REPLACE(REPLACE(REPLACE(footer_logo_text, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
   connection.query("UPDATE contact_information SET address = REPLACE(REPLACE(REPLACE(address, 'Indiranagar', 'Indiranagar'), 'Bangalore', 'Indiranagar'), 'Bengaluru', 'Indiranagar')");
+
+  // Ensure whatsapp_settings table supports emojis
+  connection.query("ALTER TABLE whatsapp_settings CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci", (err) => {
+    if (err) console.error("Error setting utf8mb4 on whatsapp_settings:", err);
+  });
 
   // Ensure whatsapp_settings has a default row if empty
   connection.query("SELECT COUNT(*) as count FROM whatsapp_settings", (wErr, wResult) => {
