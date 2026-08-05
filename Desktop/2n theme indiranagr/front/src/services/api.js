@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+const isProd = typeof window !== 'undefined' && window.location.hostname !== 'localhost';
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || '/api',
+  baseURL: isProd ? 'https://api.vapeshopindiranagar.com/api' : (process.env.NEXT_PUBLIC_API_URL || '/api'),
 });
 
 // Cache to deduplicate simultaneous requests (prevents 429 Too Many Requests)
