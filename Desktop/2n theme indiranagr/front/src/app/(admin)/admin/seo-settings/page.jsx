@@ -67,17 +67,17 @@ const SEOSettings = () => {
             
             <div className="form-group" >
               <label>Meta Title (Default)</label>
-              <input type="text" name="meta_title" value={seoData.meta_title} onChange={handleInputChange} />
+              <input type="text" name="meta_title" value={seoData.meta_title} onChange={handleInputChange} placeholder="e.g. Vape Shop Indiranagar | Premium Vapes" />
             </div>
 
             <div className="form-group" style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
               <label>Meta Description</label>
-              <textarea name="meta_description" value={seoData.meta_description} onChange={handleInputChange} style={{ flex: 1, minHeight: '100px', resize: 'vertical' }}></textarea>
+              <textarea name="meta_description" value={seoData.meta_description} onChange={handleInputChange} placeholder="e.g. Shop the best premium vapes in Indiranagar with same-day delivery." style={{ flex: 1, minHeight: '100px', resize: 'vertical' }}></textarea>
             </div>
 
             <div className="form-group" >
               <label>Meta Keywords</label>
-              <textarea name="meta_keywords" value={seoData.meta_keywords} onChange={handleInputChange} rows="2" style={{ resize: 'vertical' }}></textarea>
+              <textarea name="meta_keywords" value={seoData.meta_keywords} onChange={handleInputChange} rows="2" placeholder="e.g. vapes, indiranagar, e-cigarettes, vape shop bangalore" style={{ resize: 'vertical' }}></textarea>
             </div>
           </div>
 
@@ -87,17 +87,17 @@ const SEOSettings = () => {
 
             <div className="form-group" >
               <label>Google Analytics ID</label>
-              <input type="text" name="google_analytics_id" value={seoData.google_analytics_id} onChange={handleInputChange} placeholder="e.g. G-XXXXXXX" />
+              <input type="text" name="google_analytics_id" value={seoData.google_analytics_id} onChange={handleInputChange} placeholder="e.g. G-XXXXXXXXXX" />
             </div>
 
             <div className="form-group" >
               <label>Meta (Facebook) Pixel ID</label>
-              <input type="text" name="meta_pixel_id" value={seoData.meta_pixel_id} onChange={handleInputChange} />
+              <input type="text" name="meta_pixel_id" value={seoData.meta_pixel_id} onChange={handleInputChange} placeholder="e.g. 123456789012345" />
             </div>
             
             <div className="form-group" style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
               <label>Google Search Console Verification HTML</label>
-              <textarea name="search_console_verification" value={seoData.search_console_verification} onChange={handleInputChange} style={{ flex: 1, minHeight: '100px', resize: 'vertical' }}></textarea>
+              <textarea name="search_console_verification" value={seoData.search_console_verification} onChange={handleInputChange} placeholder="e.g. abc123def456ghi789 (Just the code, not the full HTML tag)" style={{ flex: 1, minHeight: '100px', resize: 'vertical' }}></textarea>
             </div>
 
             <div style={{ marginTop: 'auto', textAlign: 'right' }}>
