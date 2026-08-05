@@ -177,7 +177,7 @@ const Header = () => {
       <header className={`public-header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container header-container">
           <Link href="/" className="logo" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-            <img src={logoSrc} alt="Logo" style={{ height: '75px', maxHeight: '10vh', width: 'auto', objectFit: 'contain', borderRadius: '4px' }} />
+            <img src={logoSrc} alt="Logo" style={{ height: '60px', width: '180px', objectFit: 'contain', objectPosition: 'left center', borderRadius: '4px' }} />
           </Link>
           
           <nav className="desktop-nav">
