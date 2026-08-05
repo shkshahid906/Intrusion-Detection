@@ -132,6 +132,7 @@ const ProductDetails = () => {
         <meta property="og:title" content={product.name} />
         <meta property="og:description" content={getCleanDescription()} />
         <meta property="og:image" content={images[0]} />
+        <meta property="og:image:alt" content={getCleanDescription()} />
       </Helmet>
 
       <div className="container">
@@ -166,7 +167,7 @@ const ProductDetails = () => {
               {images.map((img, i) => (
                 <SwiperSlide key={i}>
                   <div className="main-image-wrapper">
-                    <img loading="lazy" src={`${img}`} alt={product.name} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"><rect width="400" height="400" fill="%23f1f5f9"/><text x="200" y="200" font-family="sans-serif" font-size="24" fill="%2394a3b8" text-anchor="middle" dominant-baseline="middle">No Image</text></svg>'; }} />
+                    <img loading="lazy" src={`${img}`} alt={`${product.name} - ${getCleanDescription()}`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"><rect width="400" height="400" fill="%23f1f5f9"/><text x="200" y="200" font-family="sans-serif" font-size="24" fill="%2394a3b8" text-anchor="middle" dominant-baseline="middle">No Image</text></svg>'; }} />
                   </div>
                 </SwiperSlide>
               ))}
@@ -187,7 +188,7 @@ const ProductDetails = () => {
                 {images.map((img, i) => (
                   <SwiperSlide key={i} onClick={() => mainSwiper && mainSwiper.slideToLoop(i)}>
                     <div className="thumb-image-wrapper">
-                      <img loading="lazy" src={`${img}`} alt="thumbnail" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"><rect width="400" height="400" fill="%23f1f5f9"/><text x="200" y="200" font-family="sans-serif" font-size="24" fill="%2394a3b8" text-anchor="middle" dominant-baseline="middle">No Image</text></svg>'; }} />
+                      <img loading="lazy" src={`${img}`} alt={`${product.name} thumbnail`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"><rect width="400" height="400" fill="%23f1f5f9"/><text x="200" y="200" font-family="sans-serif" font-size="24" fill="%2394a3b8" text-anchor="middle" dominant-baseline="middle">No Image</text></svg>'; }} />
                     </div>
                   </SwiperSlide>
                 ))}
