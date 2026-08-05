@@ -9,6 +9,7 @@ import { FiShoppingBag, FiCreditCard, FiDroplet } from 'react-icons/fi';
 import { toast } from 'react-toastify';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Thumbs, Autoplay, FreeMode } from 'swiper/modules';
+import { Helmet } from 'react-helmet-async';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
@@ -111,8 +112,28 @@ const ProductDetails = () => {
     ? product.images.map(img => img.image_path)
     : (product.primary_image ? [product.primary_image] : ['/placeholder.png']);
 
+  const getCleanDescription = () => {
+    let rawText = '';
+    if (product.short_description) {
+      rawText = product.short_description;
+    } else if (product.description) {
+      // Strip HTML tags using regex if DOMParser is unavailable during SSR
+      rawText = product.description.replace(/<[^>]*>?/gm, ' ').trim();
+    }
+    return rawText.length > 160 ? rawText.substring(0, 157) + '...' : rawText;
+  };
+
   return (
     <div className="product-details-page">
+      <Helmet>
+        <title>{product.name} | Vape in Indiranagar</title>
+        <meta name="description" content={getCleanDescription()} />
+        {/* Open Graph Tags for social sharing */}
+        <meta property="og:title" content={product.name} />
+        <meta property="og:description" content={getCleanDescription()} />
+        <meta property="og:image" content={images[0]} />
+      </Helmet>
+
       <div className="container">
         
         {/* Breadcrumb */}
