@@ -6,12 +6,17 @@ const nextConfig = {
     'starter-jefferson-alert-pressure.trycloudflare.com',
     'integrated-tracy-demo-rendered.trycloudflare.com',
   ],
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: '/uploads/:path*',
-        destination: 'https://api.vapeshopindiranagar.com/uploads/:path*' // Connects to your local Node.js backend
-      },
+        destination: 'https://api.vapeshopindiranagar.com/uploads/:path*',
+        permanent: false,
+      }
+    ]
+  },
+  async rewrites() {
+    return [
       {
         source: '/api/:path*',
         destination: 'https://api.vapeshopindiranagar.com/api/:path*' // Connects to your local Node.js backend
