@@ -12,7 +12,7 @@ const SEOTracker = () => {
       try {
         const res = await api.get('/seo/settings');
         if (res.data.success) {
-          setSeo(res.data.seoSettings);
+          setSeo(res.data.seo);
         }
       } catch (err) {
         console.error("Failed to load SEO settings", err);

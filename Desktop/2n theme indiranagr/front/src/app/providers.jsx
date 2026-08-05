@@ -3,11 +3,13 @@
 import { ToastContainer } from 'react-toastify';
 import { AuthProvider } from '../context/AuthContext';
 import { CartProvider } from '../context/CartContext';
+import { HelmetProvider } from 'react-helmet-async';
 
 export function Providers({ children }) {
   return (
-    <AuthProvider>
-      <CartProvider>
+    <HelmetProvider>
+      <AuthProvider>
+        <CartProvider>
         <style dangerouslySetInnerHTML={{__html: `
           div.Toastify__toast {
             background: rgba(19, 19, 19, 0.85) !important;
@@ -47,5 +49,6 @@ export function Providers({ children }) {
         {children}
       </CartProvider>
     </AuthProvider>
+    </HelmetProvider>
   );
 }
