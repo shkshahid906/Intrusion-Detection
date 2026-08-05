@@ -126,7 +126,7 @@ const ProductDetails = () => {
   return (
     <div className="product-details-page">
       <Helmet>
-        <title>{product.name} | Vape in Indiranagar</title>
+        <title>{product.name}</title>
         <meta name="description" content={getCleanDescription()} />
         {/* Open Graph Tags for social sharing */}
         <meta property="og:title" content={product.name} />
